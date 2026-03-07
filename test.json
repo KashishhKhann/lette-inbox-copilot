@@ -1,0 +1,1915 @@
+{
+  "metadata": {
+    "dataset_version": "1.1",
+    "total_entries": 100,
+    "properties": [
+      {
+        "id": "prop_001",
+        "name": "citynorth Quarter",
+        "type": "BTR",
+        "units": 204,
+        "manager": "Sarah Brennan"
+      },
+      {
+        "id": "prop_002",
+        "name": "reds Works",
+        "type": "BTR",
+        "units": 312,
+        "manager": "Conor Walsh"
+      },
+      {
+        "id": "prop_003",
+        "name": "Graylings",
+        "type": "BTR",
+        "units": 148,
+        "manager": "Aisling Murphy"
+      },
+      {
+        "id": "prop_004",
+        "name": "Ilah Residences",
+        "type": "BTR",
+        "units": 96,
+        "manager": "Cormac Daly"
+      },
+      {
+        "id": "prop_005",
+        "name": "Thornbury Village",
+        "type": "PRS",
+        "units": 64,
+        "manager": "Orla Nolan"
+      }
+    ],
+    "sender_types": [
+      "tenant",
+      "landlord",
+      "contractor",
+      "prospect",
+      "internal",
+      "legal"
+    ],
+    "urgency_levels": [
+      "critical",
+      "high",
+      "medium",
+      "low"
+    ]
+  },
+  "emails": [
+    {
+      "id": "email_001",
+      "thread_id": "thread_001",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T08:12:00Z",
+      "from": {
+        "name": "Eoin Byrne",
+        "email": "eoin.byrne@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 14B",
+        "property_id": "prop_001"
+      },
+      "to": "citynorth@manageco.ie",
+      "subject": "URGENT - Water leaking through ceiling in bedroom",
+      "body": "Hi,\n\nI woke up this morning and there is water actively dripping through the ceiling in my bedroom. It's coming from the light fitting which is really worrying me. I've put a bucket under it but the drip is getting worse. The carpet is already soaked through.\n\nI'm in Apt 14B on the 3rd floor. I think it's coming from the apartment above me (15B). I knocked on their door but nobody answered.\n\nCan someone come out ASAP? I'm worried about the electrics with water coming through the light.\n\nEoin Byrne\n07700 100 200",
+      "attachments": [
+        "ceiling_leak_photo1.jpg",
+        "ceiling_leak_photo2.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_002",
+      "thread_id": "thread_001",
+      "thread_position": 2,
+      "timestamp": "2026-03-06T08:34:00Z",
+      "from": {
+        "name": "Sarah Brennan",
+        "email": "sarah.brennan@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_001"
+      },
+      "to": "emergencyplumbing@dublinmaintenance.ie",
+      "cc": "eoin.byrne@gmail.com",
+      "subject": "Re: URGENT - Water leaking through ceiling in bedroom",
+      "body": "Hi Dublin Maintenance team,\n\nWe have an active water leak at citynorth Quarter, Apt 14B (3rd floor). Water is coming through the ceiling light fitting from the unit above (15B). Tenant reports it's worsening.\n\nThis needs emergency attendance — potential electrical hazard. Can you confirm earliest availability this morning?\n\nProperty: citynorth Quarter\nAccess: Concierge on site, tenant is home\nTenant contact: Eoin Byrne, 07700 100 200\n\nThanks,\nTara",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_003",
+      "thread_id": "thread_001",
+      "thread_position": 3,
+      "timestamp": "2026-03-06T09:01:00Z",
+      "from": {
+        "name": "Kevin Dunne",
+        "email": "barry@dublinmaintenance.ie",
+        "type": "contractor",
+        "company": "Dublin Maintenance Solutions"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "subject": "Re: URGENT - Water leaking through ceiling in bedroom",
+      "body": "Tara,\n\nWe can have someone on-site by 10:30am. I'm sending Niall who knows the building well. He'll need access to both 14B and 15B — can you arrange keysafe access for 15B if the tenant isn't there?\n\nAlso just to flag, if this is a burst pipe in 15B we'll likely need to isolate the water supply to that unit. Might affect the units either side temporarily.\n\nI'll send a quote once Niall has assessed but for reference our emergency callout is €180 + VAT before parts.\n\nBarry",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_004",
+      "thread_id": "thread_002",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T16:45:00Z",
+      "from": {
+        "name": "Laura Phelan",
+        "email": "laura.phelan@graystone.ie",
+        "type": "landlord",
+        "company": "graystone",
+        "property_id": "prop_001"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "subject": "Q1 Occupancy & Arrears Report - citynorth Quarter",
+      "body": "Hi Tara,\n\nHope you're well. We have our quarterly board meeting on March 18th and I'll need the following ahead of that:\n\n1. Current occupancy rate and breakdown by unit type (studio, 1-bed, 2-bed)\n2. Rent arrears summary — total outstanding, number of tenants in arrears, and aging breakdown (30/60/90 days)\n3. Void turnaround times for Q1 — average days from move-out to new tenancy start\n4. Any tenants on payment plans and status of those plans\n5. Maintenance spend vs budget for Q1\n\nCould you have this over by March 12th? Happy to jump on a call if easier to walk through any of it.\n\nThanks,\nFiona",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_005",
+      "thread_id": "thread_003",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T07:55:00Z",
+      "from": {
+        "name": "Emer Crowley",
+        "email": "emer.crowley92@outlook.com",
+        "type": "tenant",
+        "unit": "Apt 22A",
+        "property_id": "prop_002"
+      },
+      "to": "redsworks@manageco.ie",
+      "subject": "Heating not working - 3 days now",
+      "body": "To whom it may concern,\n\nI've been trying to get this sorted for three days now. My heating has completely stopped working since Monday. I reported it through the app on Monday evening and got an automated response saying someone would be in touch within 24 hours. Nobody has contacted me.\n\nI called the office on Tuesday and was told the maintenance team would call me back. They didn't.\n\nIt's March and my apartment is freezing. I have a 6-month-old baby and the temperature in the flat is dropping to about 13 degrees at night. I've had to buy a portable heater which is costing me a fortune in electricity.\n\nThis is now a health and safety issue. I need this fixed TODAY or I will be contacting the RTB.\n\nEmer Crowley\nApt 22A, reds Works",
+      "attachments": [
+        "thermostat_reading.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_006",
+      "thread_id": "thread_004",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T11:20:00Z",
+      "from": {
+        "name": "Ciaran Foley",
+        "email": "ciaran.foley@protonmail.com",
+        "type": "prospect"
+      },
+      "to": "redsworks@manageco.ie",
+      "subject": "Viewing request - 2 bed apartment",
+      "body": "Hi there,\n\nI saw your listing on Daft for a 2-bed apartment at reds Works, €2,400/month. My partner and I are relocating from Cork for work (both starting new jobs in the IFSC in April).\n\nWe'd love to arrange a viewing. We're flexible on times but could do any evening this week or Saturday morning. We're pre-approved for references and can provide employer letters.\n\nA few questions:\n- Is parking included or is it extra?\n- What's the lease term — 12 months minimum?\n- Are pets allowed? We have a small dog (cockapoo, about 8kg)\n- Is the BER rating available?\n\nLook forward to hearing from you.\n\nLorcan & Emer",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_007",
+      "thread_id": "thread_005",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T02:17:00Z",
+      "from": {
+        "name": "Marek Kowalski",
+        "email": "m.kowalski84@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 8C",
+        "property_id": "prop_003"
+      },
+      "to": "graylings@manageco.ie",
+      "subject": "Noise complaint - ongoing party in apartment above",
+      "body": "Hello,\n\nIt is 2am and the apartment above me (9C) has been having an extremely loud party since about 10pm. There is loud music, shouting, and what sounds like furniture being moved around or people jumping.\n\nI have work at 6am and I've already knocked on their door twice. The first time they turned it down for about 20 minutes then it went back up louder. The second time nobody answered.\n\nThis is the third weekend in a row this has happened. I've been keeping a log:\n- Feb 21: Party until 3:30am, music and shouting\n- Feb 28: Loud music from 11pm-2am\n- Tonight: Started at 10pm, still going\n\nI need this addressed properly. A warning email isn't enough anymore. What are my options here?\n\nMarek Kowalski\nApt 8C",
+      "attachments": [
+        "noise_log.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_008",
+      "thread_id": "thread_006",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T14:33:00Z",
+      "from": {
+        "name": "Mairead Coyne",
+        "email": "accounts@crestelectrical.ie",
+        "type": "contractor",
+        "company": "Crest Electrical"
+      },
+      "to": "accounts@manageco.ie",
+      "cc": "aisling.murphy@manageco.ie",
+      "subject": "Overdue Invoice #4892 - Graylings emergency lighting",
+      "body": "Hi,\n\nThis is a follow-up regarding Invoice #4892 for the emergency lighting replacement works completed at Graylings on January 15th, 2026.\n\nInvoice amount: €3,240.00 + VAT\nPayment terms: 30 days\nDue date: February 14th, 2026\nDays overdue: 19 days\n\nWe completed this work on an emergency basis over a weekend at your request. We've sent two reminders already (Feb 18th and Feb 28th) with no response.\n\nPlease arrange payment within 7 days or we'll need to put a hold on any further work at your properties until the account is cleared. We have two jobs scheduled at citynorth Quarter next week that would be affected.\n\nKind regards,\nMairead Coyne\nAccounts Department\nCrest Electrical Ltd",
+      "attachments": [
+        "INV_4892.pdf",
+        "completion_cert_graylings_jan15.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_009",
+      "thread_id": "thread_007",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T09:15:00Z",
+      "from": {
+        "name": "Haruka Tanaka",
+        "email": "haruka.tanaka@outlook.com",
+        "type": "tenant",
+        "unit": "Apt 3D",
+        "property_id": "prop_004"
+      },
+      "to": "ilah@manageco.ie",
+      "subject": "Notice to vacate - end of lease",
+      "body": "Hi Ronan,\n\nI'm writing to give formal notice that I'll be vacating Apt 3D at Ilah Residences. My lease ends on April 30th and I won't be renewing.\n\nI've accepted a job in Amsterdam and will be moving mid-April. I'd like to arrange the move-out inspection for the week of April 14th if possible.\n\nA few things I wanted to flag:\n- There's a small crack in the bathroom tile near the shower that was there when I moved in — I noted it on the move-in report\n- I had the carpets professionally cleaned last month (receipt attached)\n- I'll need details on the deposit return process and timeline\n\nI've really enjoyed living here and the team has been great. Happy to help show prospective tenants around if that helps with re-letting.\n\nBest,\nYuna",
+      "attachments": [
+        "carpet_cleaning_receipt.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_010",
+      "thread_id": "thread_008",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T22:08:00Z",
+      "from": {
+        "name": "Aidan Carroll",
+        "email": "aidan.carroll@live.ie",
+        "type": "tenant",
+        "unit": "Apt 7A",
+        "property_id": "prop_005"
+      },
+      "to": "thornbury@manageco.ie",
+      "subject": "Rent payment issue - direct debit failed",
+      "body": "Hi Shauna,\n\nJust noticed my direct debit for March rent didn't go through. I got a notification from my bank saying it was returned unpaid. I think this might be because I switched bank accounts last month and forgot to update the direct debit mandate.\n\nI don't want to fall into arrears — can you send me the form to set up a new mandate? Or can I make a manual transfer for March in the meantime? If so, can you confirm the account details?\n\nI switched from AIB to Revolut if that makes a difference to the mandate setup.\n\nApologies for the hassle.\n\nFinn\nApt 7A, Thornbury",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_011",
+      "thread_id": "thread_009",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T06:42:00Z",
+      "from": {
+        "name": "Concierge Desk - citynorth",
+        "email": "concierge.citynorth@manageco.ie",
+        "type": "internal",
+        "role": "Concierge",
+        "property_id": "prop_001"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "subject": "Overnight incident report - March 5/6",
+      "body": "Morning Tara,\n\nOvernight report for your review:\n\n1. FIRE ALARM ACTIVATION - 11:47pm\nFalse alarm triggered on 4th floor. Fire panel showed detector in common hallway near Apt 16A. FRS attended, confirmed false alarm. Suspected cause: cooking smoke (tenant in 16A confirmed). Reset at 12:22am. Full building evacuation was not required but several residents complained about the alarm duration.\n\n2. ANTISOCIAL BEHAVIOUR - 1:15am\nTwo males attempting to enter building via car park entrance. Not residents. Asked to leave, became verbally aggressive. Departed after I called Gardai. No physical confrontation. CCTV footage saved (camera 7 and 12).\n\n3. MAINTENANCE - 3:30am\nTenant in Apt 2A (Mrs. Corcoran, elderly) called down reporting no hot water. I checked the boiler room — communal heating system showing an error code (E47). Wasn't able to reset. Logged for morning maintenance.\n\n4. DELIVERY\nLarge furniture delivery arrived at 6:15am for Apt 19B. Driver insisted on using the main entrance. Directed to loading bay as per policy.\n\nAll incidents logged in the system. Let me know if you need anything else.\n\nDonal",
+      "attachments": [
+        "cctv_screenshot_incident2.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_012",
+      "thread_id": "thread_010",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T10:00:00Z",
+      "from": {
+        "name": "Teresa Griffin",
+        "email": "teresa.griffin@rtb.ie",
+        "type": "legal",
+        "company": "RTB"
+      },
+      "to": "conor.walsh@manageco.ie",
+      "subject": "RTB Case Ref: DR-2026-0847 - Dispute Notification",
+      "body": "Dear Mr. Forde,\n\nThis is to formally notify you that a dispute has been filed with the Residential Tenancies Board under reference DR-2026-0847.\n\nProperty: reds Works, Apt 31C\nTenant: Mr. Sean Morrissey\nLandlord/Agent: ManageCo (on behalf of HMD Properties)\n\nNature of dispute: The tenant alleges that essential repairs (persistent damp and mould in the bedroom) have not been addressed despite repeated reports over a 4-month period, constituting a breach of the landlord's obligations under Section 12 of the Residential Tenancies Act 2004.\n\nThe tenant is seeking:\n- Immediate remediation of the damp/mould issue\n- Rent reduction for the period of disrepair\n- Compensation for damaged personal property\n\nYou have 28 days from receipt of this notice to submit your response. Please include all relevant maintenance records, correspondence with the tenant, and any inspection reports.\n\nA mediation session will be scheduled upon receipt of both parties' submissions.\n\nYours sincerely,\nTeresa Griffin\nDispute Resolution Officer\nResidential Tenancies Board",
+      "attachments": [
+        "RTB_DR_2026_0847_notice.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_013",
+      "thread_id": "thread_011",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T08:50:00Z",
+      "from": {
+        "name": "Priya Kapoor",
+        "email": "priya.kapoor@techcorp.com",
+        "type": "prospect"
+      },
+      "to": "ilah@manageco.ie",
+      "subject": "Corporate let inquiry - 4 units",
+      "body": "Good morning,\n\nI'm the Relocation Manager at TechCorp Ireland. We're expanding our Dublin team and need to secure accommodation for 4 incoming employees arriving in May.\n\nWe're looking for:\n- 4x 1-bed or studio apartments\n- Minimum 6-month lease (ideally 12 months)\n- Furnished preferred\n- Budget up to €2,000 per unit\n- Close to public transport\n\nWe'd handle all referencing centrally and can provide corporate guarantees. We've done similar arrangements with Kennedy Wilson and Greystar previously.\n\nCould we arrange a site visit for next week? I'd also appreciate your corporate let rate card if you have one.\n\nBest regards,\nPriya Kapoor\nRelocation Manager, TechCorp Ireland\n+353 1 555 0192",
+      "attachments": [
+        "techcorp_corporate_reference.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_014",
+      "thread_id": "thread_012",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T15:20:00Z",
+      "from": {
+        "name": "Fergus Kelly",
+        "email": "fergus.kelly@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 5F",
+        "property_id": "prop_002"
+      },
+      "to": "redsworks@manageco.ie",
+      "subject": "Lease renewal terms - not happy",
+      "body": "Declan,\n\nI received the lease renewal letter yesterday and I'm honestly shocked. You're proposing a rent increase from €1,950 to €2,150 — that's over 10%.\n\nAs I understand it, rents in RPZs are capped at 2% per year. My current lease started in March 2025, so any increase should be capped at 2% which would be €1,989.\n\nCan you explain how you've arrived at €2,150? I've checked the RTB rent pressure zone calculator and reds Works is definitely in a designated RPZ.\n\nI want to renew — I like living here — but I won't be signing at that rate. Please come back to me with the correct figure.\n\nDara",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_015",
+      "thread_id": "thread_012",
+      "thread_position": 2,
+      "timestamp": "2026-03-06T09:30:00Z",
+      "from": {
+        "name": "Conor Walsh",
+        "email": "conor.walsh@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_002"
+      },
+      "to": "fergus.kelly@gmail.com",
+      "subject": "Re: Lease renewal terms - not happy",
+      "body": "Hi Dara,\n\nThanks for getting back to me on this. You raise a fair point and I want to make sure we get this right.\n\nI'm going to review the calculation with our lettings team today. The increase was based on figures provided by the landlord, but you're correct that RPZ rules apply and we need to ensure full compliance.\n\nI'll come back to you by end of day Friday with the confirmed renewal terms. In the meantime, your current lease terms remain in place — there's no pressure to sign anything immediately.\n\nApologies for any concern this has caused.\n\nBest,\nDeclan",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_016",
+      "thread_id": "thread_013",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T07:30:00Z",
+      "from": {
+        "name": "GreenClean Services",
+        "email": "scheduling@greenclean.ie",
+        "type": "contractor",
+        "company": "GreenClean Services"
+      },
+      "to": "aisling.murphy@manageco.ie",
+      "subject": "Graylings - Weekly clean schedule change request",
+      "body": "Hi Maeve,\n\nJust a heads up — we need to move the Thursday common area clean at Graylings to Wednesday next week (March 11th) as we have a staffing issue. Same time, 7am-11am.\n\nAlso wanted to flag that the bin store on the ground floor is getting out of hand again. Residents are leaving bulk items (furniture, mattresses) beside the bins instead of booking bulky waste collection. We had to work around a sofa and two mattresses this week. It's making the clean take an extra hour and is a fire risk.\n\nCan you send a resident notice about the bulk waste policy? Happy to take photos next time for evidence.\n\nThanks,\nTriona\nGreenClean Services",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_017",
+      "thread_id": "thread_014",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T17:45:00Z",
+      "from": {
+        "name": "Orla Nolan",
+        "email": "orla.nolan@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_005"
+      },
+      "to": "all-managers@manageco.ie",
+      "subject": "New fire safety regulations - action required by April 1st",
+      "body": "Hi all,\n\nJust came out of the fire safety briefing with our compliance team. Key changes taking effect April 1st:\n\n1. All BTR buildings over 6 storeys now require quarterly fire door inspections (was annual). We need to get inspection contracts in place ASAP.\n\n2. Emergency lighting test frequency increases to monthly (from quarterly).\n\n3. New requirement for fire safety information packs for all tenants — must be provided at move-in and annually thereafter. Template being prepared by legal.\n\n4. Fire safety register must be digitised and accessible remotely by April 1st. Paper logs no longer sufficient.\n\nCan each PM confirm by March 10th:\n- Current fire door inspection status at your property\n- Whether your emergency lighting testing is up to date\n- Number of units requiring the new info pack\n\nThis is a compliance deadline — we can't miss it.\n\nShauna",
+      "attachments": [
+        "fire_safety_regs_summary_2026.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_018",
+      "thread_id": "thread_015",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T10:05:00Z",
+      "from": {
+        "name": "Kathleen Sheehy",
+        "email": "kathleen.sheehy@hotmail.com",
+        "type": "tenant",
+        "unit": "Apt 2A",
+        "property_id": "prop_001"
+      },
+      "to": "citynorth@manageco.ie",
+      "subject": "No hot water since last night",
+      "body": "Dear Tara,\n\nI called down to the concierge last night around 3:30am because I had no hot water. He said there was an error on the boiler and logged it. It's now past 10am and I still have no hot water.\n\nI'm 78 years old and I need hot water for washing and my morning routine. Nobody has come to look at it and nobody has called me.\n\nThis is not acceptable. Please send someone urgently.\n\nMrs. Kathleen Sheehy\nApt 2A\n01 555 7823",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_019",
+      "thread_id": "thread_016",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T13:10:00Z",
+      "from": {
+        "name": "Tommy Sullivan",
+        "email": "mick@reganplumbing.ie",
+        "type": "contractor",
+        "company": "Regan Plumbing & Heating"
+      },
+      "to": "cormac.daly@manageco.ie",
+      "subject": "Annual boiler service quote - Ilah Residences",
+      "body": "Ronan,\n\nAs discussed, here's the quote for the annual boiler service at Ilah Residences:\n\n96 units × individual gas boiler service = €145 per unit\nTotal: €13,920 + VAT\n\nThis includes:\n- Full boiler service and safety check\n- Gas tightness test\n- Flue gas analysis\n- BER cert gas safety sign-off\n- Written report per unit\n\nTimeline: We could start March 24th and complete within 3 weeks (approximately 7 units per day, Mon-Fri). We'd need tenant access arranged — suggest sending notices 7 days in advance.\n\nQuote valid for 30 days. If you want to proceed, we'd need 25% deposit to book the dates.\n\nLet me know,\nTommy Sullivan\nRegan Plumbing & Heating",
+      "attachments": [
+        "millford_boiler_service_quote_2026.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_020",
+      "thread_id": "thread_017",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T08:00:00Z",
+      "from": {
+        "name": "Auto Alert - Fire Panel",
+        "email": "alerts@buildingmonitor.io",
+        "type": "system",
+        "property_id": "prop_003"
+      },
+      "to": "aisling.murphy@manageco.ie",
+      "subject": "[ALERT] Fire panel fault detected - Graylings",
+      "body": "AUTOMATED ALERT\n\nProperty: Graylings\nSystem: Addressable Fire Alarm Panel (Kentec Syncro)\nAlert Type: FAULT\nTimestamp: 2026-03-06 07:58:12 GMT\n\nDetails:\n- Zone 3 (Floors 5-6) showing persistent fault\n- 4 detectors offline: addresses 3.14, 3.15, 3.18, 3.22\n- Cause: Possible wiring fault or detector failure\n- Impact: Reduced fire detection coverage on floors 5-6\n\nAction Required:\n- Fire alarm engineer to investigate and resolve\n- Building management should consider interim fire watch for affected floors\n- Fault must be resolved within 24 hours per fire safety regulations\n\nThis is an automated alert. Do not reply to this email.",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_021",
+      "thread_id": "thread_018",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T09:30:00Z",
+      "from": {
+        "name": "Brendan Feeney",
+        "email": "b.feeney@hmdproperties.ie",
+        "type": "landlord",
+        "company": "HMD Properties",
+        "property_id": "prop_002"
+      },
+      "to": "conor.walsh@manageco.ie",
+      "subject": "reds Works - Q2 rent review strategy",
+      "body": "Declan,\n\nWith 47 leases coming up for renewal in Q2, we need to align on strategy. I'd like to push rents to market rate where legally possible.\n\nCan you prepare:\n1. List of all Q2 renewals with current rent vs estimated market rent\n2. Which units are in RPZ and the maximum permitted increase\n3. Any tenants we're at risk of losing (long-term, good payers we want to retain)\n4. Units where we should consider not renewing (persistent arrears, ASB issues)\n\nLet's schedule a call next week to go through it. Wednesday or Thursday work for me.\n\nGerard",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_022",
+      "thread_id": "thread_019",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T11:20:00Z",
+      "from": {
+        "name": "Ana Santos",
+        "email": "ana.santos@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 12E",
+        "property_id": "prop_003"
+      },
+      "to": "graylings@manageco.ie",
+      "subject": "Request to sublet my apartment for 3 months",
+      "body": "Hi Maeve,\n\nI hope you're well. I have a bit of an unusual request.\n\nMy company is sending me to our Lisbon office for 3 months (April-June). I don't want to give up my apartment as I'll be coming back, but paying rent on an empty flat for 3 months is tough.\n\nWould it be possible to sublet my apartment for that period? My colleague Anna (also works at my company) would take it. She's very reliable and I'd take full responsibility.\n\nAlternatively, is there any option to pause or reduce rent during a temporary absence? I understand if not, but thought I'd ask.\n\nMy lease runs until October 2026 so breaking it isn't ideal.\n\nThanks,\nLucia",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_023",
+      "thread_id": "thread_020",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T06:15:00Z",
+      "from": {
+        "name": "Auto Alert - Lift System",
+        "email": "alerts@buildingmonitor.io",
+        "type": "system",
+        "property_id": "prop_002"
+      },
+      "to": "conor.walsh@manageco.ie",
+      "subject": "[ALERT] Lift 2 out of service - reds Works",
+      "body": "AUTOMATED ALERT\n\nProperty: reds Works\nSystem: Passenger Lift 2 (Schindler 3300)\nAlert Type: OUT OF SERVICE\nTimestamp: 2026-03-06 06:12:44 GMT\n\nDetails:\n- Lift 2 stopped between floors 8 and 9\n- No passengers trapped (confirmed by intercom check)\n- Error code: OL-14 (overload protection triggered)\n- Lift has been taken out of service automatically\n\nAction Required:\n- Contact Schindler service team for callout\n- Post out-of-service notice in lobby\n- Monitor Lift 1 capacity during peak hours\n\nNote: Lift 2 has had 3 callouts in the past 30 days (Feb 8, Feb 19, Mar 6). Pattern may indicate underlying mechanical issue.\n\nThis is an automated alert. Do not reply to this email.",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_024",
+      "thread_id": "thread_021",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T12:00:00Z",
+      "from": {
+        "name": "Jun Chen",
+        "email": "jun.chen@revolut.com",
+        "type": "prospect"
+      },
+      "to": "citynorth@manageco.ie",
+      "subject": "Group viewing for Revolut relocation employees",
+      "body": "Hi,\n\nI'm part of the People team at Revolut Dublin. We have 8 employees relocating from our London and Bucharest offices over the next 2 months and we're helping them find accommodation.\n\nWould it be possible to arrange a group viewing at citynorth Quarter? We're interested in a mix of studios and 1-beds.\n\nOur requirements:\n- Minimum 6-month lease\n- Furnished or partially furnished\n- Budget ranges from €1,600-€2,000 per unit depending on size\n- Good transport links (Luas/bus essential)\n- Fast broadband (most are software engineers working hybrid)\n\nWe've worked with your building before — I think two of our team already live there.\n\nCould you let me know availability for a viewing early next week?\n\nThanks,\nJun Chen\nWorkplace & People Operations\nRevolut",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_025",
+      "thread_id": "thread_022",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T09:45:00Z",
+      "from": {
+        "name": "Donnacha Hayes",
+        "email": "donnacha.hayes@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 19B",
+        "property_id": "prop_001"
+      },
+      "to": "citynorth@manageco.ie",
+      "subject": "Complaint about furniture delivery policy",
+      "body": "Good morning,\n\nI had a sofa delivered this morning and the concierge wouldn't let the delivery men use the main entrance. They had to carry a 3-seater sofa all the way around to the loading bay at the back of the building in the rain.\n\nThe delivery team almost dropped it and the sofa got wet. I understand there are policies but this is ridiculous. The main entrance has double doors — it would have taken 5 minutes.\n\nWhere is this delivery policy written? It wasn't in my tenancy agreement. I want to see the building rules document because I don't recall agreeing to this.\n\nAlso, the service lift was out of order (AGAIN) so they had to use the main lift, which meant holding it for 15 minutes while other residents waited. Not my fault the service lift isn't maintained.\n\nDonnacha Hayes\nApt 19B",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_026",
+      "thread_id": "thread_023",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T16:00:00Z",
+      "from": {
+        "name": "Cormac Daly",
+        "email": "cormac.daly@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_004"
+      },
+      "to": "millford-tenants-all@manageco.ie",
+      "subject": "Planned water shutdown - March 12th, 9am-2pm",
+      "body": "Dear Residents,\n\nPlease be advised that there will be a planned water shutdown at Ilah Residences on Wednesday, March 12th, from 9:00am to 2:00pm.\n\nThis is to carry out essential maintenance on the main water supply valve. During this time, there will be no cold or hot water supply to any apartment.\n\nWe recommend:\n- Filling kettles and containers beforehand\n- Planning showers/baths before 9am\n- Not using washing machines or dishwashers during the shutdown\n\nWater will be restored by 2:00pm. There may be some air in the pipes when supply resumes — simply run your cold tap for a few minutes.\n\nWe apologise for the inconvenience and appreciate your patience.\n\nBest regards,\nCormac Daly\nProperty Manager, Ilah Residences",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_027",
+      "thread_id": "thread_024",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T07:10:00Z",
+      "from": {
+        "name": "Niamh Kavanagh",
+        "email": "niamh.kavanagh@thornbury.ie",
+        "type": "tenant",
+        "unit": "House 12",
+        "property_id": "prop_005"
+      },
+      "to": "thornbury@manageco.ie",
+      "subject": "Fence blown down in last night's storm",
+      "body": "Hi Shauna,\n\nThe storm last night blew down about 3 panels of the back garden fence between our house (12) and next door (13). The fence is completely flat and the garden is now open to the field behind the estate.\n\nThis is a security concern as we have two young children and a dog. The kids can't play in the garden safely until it's fixed.\n\nAlso, a large branch came down from the tree in the communal green area and is blocking part of the footpath. It's a trip hazard.\n\nCan you get someone out to at least temporarily secure the fence and clear the branch? Happy to be here for access — I work from home.\n\nThanks,\nCara\nHouse 12",
+      "attachments": [
+        "fence_damage_1.jpg",
+        "fence_damage_2.jpg",
+        "fallen_branch.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_028",
+      "thread_id": "thread_025",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T14:50:00Z",
+      "from": {
+        "name": "Dermot Gannon",
+        "email": "fergal@mannionlaw.ie",
+        "type": "legal",
+        "company": "Mannion & Associates Solicitors"
+      },
+      "to": "orla.nolan@manageco.ie",
+      "subject": "Tenant breach of lease - Apt 4B, Thornbury Village",
+      "body": "Dear Shauna,\n\nFurther to our telephone conversation, I'm writing to confirm instructions regarding the tenant at Apt 4B, Thornbury Village — Mr. Wayne Phelan.\n\nBased on the evidence you've provided:\n- Unauthorised occupants (4 adults in a 1-bed apartment, lease permits max 2)\n- Multiple noise complaints from neighbours (documented)\n- Damage to common area (broken entry panel)\n- Non-payment of €450 service charge\n\nI recommend issuing a formal warning notice under Section 16(1) of the Residential Tenancies Act, giving 28 days to remedy the breaches. If the tenant fails to comply, we can proceed with a notice of termination.\n\nI've drafted the warning notice (attached). Please review, sign, and serve on the tenant. It must be served by hand or registered post.\n\nLet me know if you have any questions.\n\nDermot Gannon\nMannion & Associates Solicitors",
+      "attachments": [
+        "warning_notice_4B_thornbury_draft.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_029",
+      "thread_id": "thread_026",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T10:30:00Z",
+      "from": {
+        "name": "Roisin Moran",
+        "email": "roisin.moran@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 6B",
+        "property_id": "prop_003"
+      },
+      "to": "graylings@manageco.ie",
+      "subject": "Car park issue - someone keeps parking in my space",
+      "body": "Hi,\n\nFor the third time this week, someone has parked in my allocated space (B26). I'm paying €150/month for this space and I can't use it.\n\nI've left notes on the car twice but they keep doing it. The car is a black BMW 3 Series, reg 231-D-14582. I don't recognise it as belonging to anyone in the building.\n\nToday I had to park on the street 10 minutes away and I'm 7 months pregnant. This is beyond frustrating.\n\nCan management please:\n1. Identify whose car this is\n2. Issue a warning\n3. Consider clamping or towing if it continues\n4. Improve signage so allocated spaces are clearly marked\n\nI'm taking photos every time it happens now.\n\nClodagh\nApt 6B, Space B26",
+      "attachments": [
+        "parking_photo_mar6.jpg",
+        "parking_photo_mar4.jpg",
+        "parking_photo_mar3.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_030",
+      "thread_id": "thread_027",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T11:45:00Z",
+      "from": {
+        "name": "graystone Capital",
+        "email": "investor.relations@graystone.ie",
+        "type": "landlord",
+        "company": "graystone",
+        "property_id": "prop_001"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "cc": "laura.phelan@graystone.ie",
+      "subject": "ESG reporting data request - citynorth Quarter",
+      "body": "Hi Tara,\n\nAs part of our annual ESG reporting obligations, we need the following data for citynorth Quarter for the period Jan-Dec 2025:\n\nEnvironmental:\n- Total energy consumption (electricity + gas) in kWh\n- Water consumption in cubic metres\n- Waste management data (general waste vs recycling tonnage)\n- BER ratings breakdown across all units\n- Any energy efficiency improvements completed in 2025\n\nSocial:\n- Tenant satisfaction survey results (if conducted)\n- Number of community events held\n- Accessibility features and improvements\n- Complaints data and resolution times\n\nGovernance:\n- Health & safety incidents\n- Compliance audit results\n- Insurance claims summary\n- Staff training records\n\nDeadline: March 20th for inclusion in our annual report.\n\nHappy to discuss what format works best.\n\nRegards,\nInvestor Relations Team\ngraystone Capital",
+      "attachments": [
+        "esg_data_template_2025.xlsx"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_031",
+      "thread_id": "thread_003",
+      "thread_position": 2,
+      "timestamp": "2026-03-06T10:45:00Z",
+      "from": {
+        "name": "Emer Crowley",
+        "email": "emer.crowley92@outlook.com",
+        "type": "tenant",
+        "unit": "Apt 22A",
+        "property_id": "prop_002"
+      },
+      "to": "redsworks@manageco.ie",
+      "subject": "Re: Heating not working - 3 days now",
+      "body": "I've now also emailed the RTB and Threshold for advice. Still no response from your office. It's nearly 11am.\n\nMy baby has been in extra layers for 3 days. I've documented everything including the temperature readings from my thermostat showing 13.2°C at 6am this morning.\n\nIf I don't hear back by 12pm today I'm instructing my solicitor.\n\nGrainne",
+      "attachments": [
+        "temp_readings_screenshot.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_032",
+      "thread_id": "thread_028",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T08:30:00Z",
+      "from": {
+        "name": "CompliancePro",
+        "email": "notifications@compliancepro.ie",
+        "type": "system"
+      },
+      "to": "all-managers@manageco.ie",
+      "subject": "Reminder: Gas safety certificates expiring - 14 units",
+      "body": "COMPLIANCE ALERT\n\nThe following gas safety certificates are expiring within 30 days:\n\ncitynorth Quarter:\n- Apt 3A - Expires March 18\n- Apt 3B - Expires March 18\n- Apt 7C - Expires March 22\n- Apt 11D - Expires March 25\n- Apt 14A - Expires March 30\n\nreds Works:\n- Apt 9B - Expires March 15\n- Apt 9C - Expires March 15\n- Apt 16A - Expires March 20\n- Apt 22D - Expires March 28\n\nGraylings:\n- Apt 1A - Expires March 12\n- Apt 1B - Expires March 12\n- Apt 4C - Expires March 19\n\nThornbury Village:\n- House 3 - Expires March 21\n- House 8 - Expires March 29\n\nLandlords are legally required to maintain valid gas safety certificates. Please arrange inspections before expiry.\n\nThis is an automated reminder from CompliancePro.",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_033",
+      "thread_id": "thread_029",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T09:00:00Z",
+      "from": {
+        "name": "Darren Gallagher",
+        "email": "darren.gallagher@outlook.ie",
+        "type": "tenant",
+        "unit": "Apt 16A",
+        "property_id": "prop_001"
+      },
+      "to": "citynorth@manageco.ie",
+      "subject": "Apology re: fire alarm last night",
+      "body": "Hi Tara,\n\nI owe everyone an apology. The fire alarm last night was my fault — I was cooking and the smoke detector went off. I tried to clear it by opening the window but it had already triggered the panel.\n\nI'm really sorry for the disruption. I know some residents were woken up. Is there anything I need to do formally? I don't want any trouble on my tenancy record.\n\nAlso, would it be possible to get a recirculating cooker hood installed? The extractor in my kitchen doesn't seem to work very well and this isn't the first time I've set off the detector while cooking. I think a better hood would prevent it happening again.\n\nSorry again.\n\nCillian\nApt 16A",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_034",
+      "thread_id": "thread_030",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T15:00:00Z",
+      "from": {
+        "name": "Claire Flanagan",
+        "email": "claire.flanagan@cbre.com",
+        "type": "contractor",
+        "company": "CBRE Property Management"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "subject": "citynorth Quarter - Annual insurance renewal documents needed",
+      "body": "Hi Tara,\n\nThe annual insurance renewal for citynorth Quarter is coming up on April 1st. Our broker needs the following by March 14th:\n\n1. Updated building reinstatement valuation\n2. Current tenant register (unit count and occupancy)\n3. Summary of all claims made in the past 12 months\n4. Confirmation of fire risk assessment date (must be within 12 months)\n5. Legionella risk assessment status\n6. Confirmation of any building works completed or planned\n7. Updated asbestos management plan status\n\nThe insurer has also flagged that they'll want to see evidence of the remediation work on the car park waterproofing that was noted in last year's survey. Do you have completion certificates for that?\n\nTight timeline on this one — appreciate your help getting it together.\n\nElaine",
+      "attachments": [
+        "insurance_renewal_checklist.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_035",
+      "thread_id": "thread_031",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T11:00:00Z",
+      "from": {
+        "name": "Amir Hassan",
+        "email": "amir.hassan@yahoo.com",
+        "type": "tenant",
+        "unit": "Apt 28C",
+        "property_id": "prop_002"
+      },
+      "to": "redsworks@manageco.ie",
+      "subject": "Washing machine leaked - water damage to apartment below",
+      "body": "Hi Declan,\n\nI need to report something. My washing machine developed a leak during a cycle last night and water has gone through to the apartment below (27C). The tenant below knocked on my door around 10pm — there was water coming through their bathroom ceiling.\n\nI've disconnected the machine and mopped up as much as I can. The machine was provided with the apartment — it's the integrated one in the kitchen.\n\nI'm worried about:\n- Damage to Apt 27C below — the tenant seemed quite upset\n- Whether my contents insurance covers this or if it's a building insurance issue since the machine was provided by you\n- Getting the washing machine replaced — it looks like the door seal failed\n\nWhat's the process here? I don't want the tenant below thinking this is my fault — the machine is your equipment.\n\nTariq\nApt 28C",
+      "attachments": [
+        "washer_leak_photo.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_036",
+      "thread_id": "thread_031",
+      "thread_position": 2,
+      "timestamp": "2026-03-06T11:15:00Z",
+      "from": {
+        "name": "Siobhan Barrett",
+        "email": "siobhan.barrett@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 27C",
+        "property_id": "prop_002"
+      },
+      "to": "redsworks@manageco.ie",
+      "subject": "Water damage from apartment above - Apt 27C",
+      "body": "Declan,\n\nI'm in Apt 27C and I have water damage from the apartment above (28C). Water came through my bathroom ceiling last night from what seems to be a washing machine leak upstairs.\n\nThe damage:\n- Bathroom ceiling has a large water stain and paint is bubbling\n- Light fitting in bathroom was dripping — I've switched it off at the fuse box for safety\n- Some water got into the hallway carpet\n\nI have contents insurance but the ceiling and light fitting are obviously the building's responsibility. I need someone to come inspect the damage and confirm it's safe to use the bathroom light.\n\nAlso, my bathroom is my only bathroom — I need this sorted quickly. I shouldn't have to live with a damaged ceiling because of a faulty machine the building provided to another tenant.\n\nSiobhan Barrett\nApt 27C\n087 234 5678",
+      "attachments": [
+        "ceiling_damage_27c.jpg",
+        "hallway_water_27c.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_037",
+      "thread_id": "thread_032",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T10:30:00Z",
+      "from": {
+        "name": "Rubri Design",
+        "email": "projects@rubri.ie",
+        "type": "contractor",
+        "company": "Rubri Design Agency"
+      },
+      "to": "marketing@manageco.ie",
+      "subject": "citynorth Quarter - Spring campaign assets ready for review",
+      "body": "Hi team,\n\nThe spring marketing campaign assets for citynorth Quarter are ready for review:\n\n1. Social media suite (Instagram/LinkedIn) — 12 posts\n2. Daft.ie listing photos — refreshed hero images for 1-bed and 2-bed\n3. Virtual tour landing page — updated with new amenity photos\n4. Email campaign template — targeting previous enquiries\n5. Print brochure — A4 trifold, 2000 copies quoted at €680\n\nAll files are in the shared Figma board. Please review and send consolidated feedback by March 10th so we can finalise and go live on March 17th.\n\nThe hero image on slide 3 is a placeholder — Laura's footage from last week isn't edited yet. We'll swap it in once ready.\n\nLet us know!\nRubri Team",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_038",
+      "thread_id": "thread_033",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T08:20:00Z",
+      "from": {
+        "name": "Darragh Henley",
+        "email": "darragh.henley@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 10D",
+        "property_id": "prop_004"
+      },
+      "to": "ilah@manageco.ie",
+      "subject": "Mould in bedroom - getting worse",
+      "body": "Ronan,\n\nThe mould in my bedroom is getting worse despite the dehumidifier I bought. It started in the corner behind the wardrobe about 2 months ago and has now spread across most of the exterior wall.\n\nI've been wiping it down with mould spray weekly but it keeps coming back. My partner has developed a persistent cough and our GP said it could be related to mould exposure.\n\nI've read online that mould in rented properties is the landlord's responsibility if it's caused by a structural issue (condensation from poor insulation/ventilation rather than tenant lifestyle). I keep the windows open regularly and use the extractor fans.\n\nI'd like someone to come inspect and determine the cause. If it's structural, I expect the landlord to fix it properly — not just paint over it.\n\nPhotos attached showing progression over the past 2 months.\n\nOisin\nApt 10D",
+      "attachments": [
+        "mould_jan_2026.jpg",
+        "mould_feb_2026.jpg",
+        "mould_mar_2026.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_039",
+      "thread_id": "thread_034",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T18:00:00Z",
+      "from": {
+        "name": "Caoimhe Ryan",
+        "email": "caoimhe.ryan@manageco.ie",
+        "type": "internal",
+        "role": "Videographer/Designer"
+      },
+      "to": "all-managers@manageco.ie",
+      "subject": "Photo/video shoot schedule - March",
+      "body": "Hi everyone,\n\nHere's the content shoot schedule for March. I need PM cooperation to arrange access:\n\nMarch 10 (Mon) - citynorth Quarter\n- Drone footage of building exterior (weather dependent)\n- Amenity spaces: gym, co-working, rooftop terrace\n- Show apartment: 1-bed (need a vacant unit staged)\n\nMarch 13 (Thu) - reds Works\n- Tenant testimonial video (confirmed: Fergus Kelly, Apt 5F)\n- Common area refresh photos\n- Concierge desk lifestyle shots\n\nMarch 18 (Tue) - Ilah Residences\n- Exterior and entrance shots\n- Apartment walkthrough (2-bed show unit)\n- Local area B-roll (transport, shops, amenities)\n\nI'll need:\n- Access confirmed by March 7th\n- Show units cleaned and staged\n- Any areas you don't want photographed flagged to me\n\nThanks!\nNiamh",
+      "attachments": [
+        "march_shoot_brief.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_040",
+      "thread_id": "thread_035",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T07:45:00Z",
+      "from": {
+        "name": "Auto Alert - Access Control",
+        "email": "alerts@buildingmonitor.io",
+        "type": "system",
+        "property_id": "prop_005"
+      },
+      "to": "orla.nolan@manageco.ie",
+      "subject": "[ALERT] Multiple failed access attempts - Thornbury Village Gate",
+      "body": "AUTOMATED ALERT\n\nProperty: Thornbury Village\nSystem: Vehicle Gate Access Control\nAlert Type: SECURITY\nTimestamp: 2026-03-06 03:42-04:15 GMT\n\nDetails:\n- 12 failed fob attempts at vehicle entrance gate over 33 minutes\n- Fob IDs do not match any registered resident fobs\n- Pattern suggests attempted forced entry or deactivated fobs being used\n- Gate remained secure throughout\n\nCamera footage available: Camera 2 (gate) and Camera 3 (perimeter)\n\nRecommended action:\n- Review CCTV footage\n- Cross-reference fob IDs against deactivated fob register\n- Consider reporting to local Garda station if suspicious\n\nThis is an automated alert. Do not reply to this email.",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_041",
+      "thread_id": "thread_036",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T13:40:00Z",
+      "from": {
+        "name": "Aisling Murphy",
+        "email": "aisling.murphy@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_003"
+      },
+      "to": "residents-graylings@manageco.ie",
+      "subject": "Important: Recycling contamination notice",
+      "body": "Dear Residents,\n\nWe've received notification from our waste management provider that the recycling bins at Graylings have been contaminated for the third consecutive collection. This means our recycling has been sent to general waste.\n\nCommon contaminants found:\n- Food waste and food-stained containers\n- Soft plastics and cling film\n- Nappies and sanitary products\n- Black bin bags (recycling must be loose, not bagged)\n\nIf contamination continues, the waste provider has warned they may refuse to collect recycling, resulting in overflowing bins and potential pest issues.\n\nWe're installing new signage on all bin stores this week with clear visual guides. Please take a moment to review what goes in each bin.\n\nIf anyone is unsure about what can be recycled, MyWaste.ie has a comprehensive guide.\n\nThank you for your cooperation.\n\nAisling Murphy\nProperty Manager, Graylings",
+      "attachments": [
+        "recycling_guide_graylings.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_042",
+      "thread_id": "thread_037",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T10:00:00Z",
+      "from": {
+        "name": "Sinead Connolly",
+        "email": "sinead.connolly@dcu.ie",
+        "type": "prospect"
+      },
+      "to": "graylings@manageco.ie",
+      "subject": "PhD student looking for apartment near DCU",
+      "body": "Hello,\n\nI'm starting a 4-year PhD at DCU in September and I'm looking for long-term accommodation. I've seen Graylings listed and it looks perfect for my needs.\n\nI'd love to know:\n- Do you have studio or 1-bed apartments available from September?\n- Is there a discount for longer lease terms (I'd happily sign a 2-year lease)?\n- My budget is around €1,400/month — is that realistic for your units?\n- How far is it from Graylings to DCU campus by bus or bike?\n- Is there secure bicycle storage?\n\nI'm currently living in Galway so I'd need to do a virtual viewing initially. Is that possible?\n\nThanks in advance,\nAilbhe",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_043",
+      "thread_id": "thread_005",
+      "thread_position": 2,
+      "timestamp": "2026-03-06T10:15:00Z",
+      "from": {
+        "name": "Aisling Murphy",
+        "email": "aisling.murphy@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_003"
+      },
+      "to": "m.kowalski84@gmail.com",
+      "subject": "Re: Noise complaint - ongoing party in apartment above",
+      "body": "Hi Piotr,\n\nThank you for your detailed report and for keeping a log — that's very helpful.\n\nI'm taking this seriously. I've reviewed the tenancy terms for Apt 9C and noise after 11pm is a clear breach of the house rules.\n\nI'm going to:\n1. Issue a formal written warning to the tenant in 9C today, referencing the specific dates you've documented\n2. Request that security do targeted checks on weekend nights for the next month\n3. Ask our noise monitoring service to install a temporary sensor on your floor\n\nIf the behaviour continues after the warning, we can escalate to a breach of tenancy notice. Please continue documenting any future incidents.\n\nI apologise for the disruption. You shouldn't have to deal with this.\n\nMaeve",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_044",
+      "thread_id": "thread_038",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T09:00:00Z",
+      "from": {
+        "name": "Revenue Commissioners",
+        "email": "lpt@revenue.ie",
+        "type": "legal",
+        "company": "Revenue"
+      },
+      "to": "accounts@manageco.ie",
+      "subject": "Local Property Tax - Reminder for managed properties",
+      "body": "Dear Property Manager,\n\nThis is a reminder that Local Property Tax returns for 2026 are due by March 24th. As the agent managing properties on behalf of multiple landlords, please ensure that:\n\n1. All property valuations have been reviewed and updated where necessary\n2. Payment method for each property has been confirmed with the property owner\n3. Any exempt properties have supporting documentation filed\n\nProperties registered to your management portfolio:\n- citynorth Quarter: 204 units\n- reds Works: 312 units\n- Graylings: 148 units\n- Ilah Residences: 96 units\n- Thornbury Village: 64 units\n\nFailure to submit returns by the deadline may result in penalties.\n\nPlease log in to the LPT portal at www.revenue.ie/lpt to confirm your submissions.\n\nRevenue Commissioners",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_045",
+      "thread_id": "thread_039",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T08:40:00Z",
+      "from": {
+        "name": "Aoife Hennessy",
+        "email": "aoife.hennessy91@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 33B",
+        "property_id": "prop_002"
+      },
+      "to": "redsworks@manageco.ie",
+      "subject": "Cockroach sighting in kitchen",
+      "body": "Hi,\n\nI found two cockroaches in my kitchen this morning — one under the fridge and one near the bin. I'm absolutely horrified.\n\nI keep my apartment very clean and I've never had pest issues before. I think they might be coming from the bin store area because I've noticed a musty smell in the corridor near the bin chute on my floor (3rd floor).\n\nI need pest control arranged for my apartment urgently. Can you also check if other tenants on my floor have reported anything similar? If this is a building-wide issue, the bin stores and common areas need treating too.\n\nI have a severe phobia and I'm honestly considering staying with a friend until this is dealt with.\n\nPlease respond today.\n\nAoife Hennessy\nApt 33B",
+      "attachments": [
+        "cockroach_photo.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_046",
+      "thread_id": "thread_040",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T17:00:00Z",
+      "from": {
+        "name": "Sarah Brennan",
+        "email": "sarah.brennan@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_001"
+      },
+      "to": "laura.phelan@graystone.ie",
+      "subject": "citynorth Quarter - February Performance Summary",
+      "body": "Hi Fiona,\n\nQuick February summary while I prepare the full Q1 report:\n\nOccupancy: 198/204 units occupied (97.1%) — up from 96.6% in January\nArrears: €18,450 total outstanding across 12 accounts (down from €22,100 in Jan)\nNew move-ins: 4 (2x studio, 1x 1-bed, 1x 2-bed)\nNotices received: 2 (both end of March)\nMaintenance tickets: 67 raised, 59 closed, 8 in progress\nAverage ticket resolution: 3.2 days\n\nNotable items:\n- Car park waterproofing snagging complete — contractor signed off\n- Gym equipment replacement on order (delivery March 15)\n- Planning tree maintenance for communal garden — getting quotes\n\nFull Q1 report with all the detail you need for the board meeting will be with you by March 12th as requested.\n\nTara",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_047",
+      "thread_id": "thread_041",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T09:50:00Z",
+      "from": {
+        "name": "Yardi Support",
+        "email": "support@yardi.com",
+        "type": "system"
+      },
+      "to": "it@manageco.ie",
+      "cc": "all-managers@manageco.ie",
+      "subject": "Scheduled maintenance - Yardi Voyager downtime March 8th",
+      "body": "Dear Customer,\n\nPlease be advised that Yardi Voyager will undergo scheduled maintenance on Saturday, March 8th, from 11:00 PM GMT to 5:00 AM GMT (Sunday, March 9th).\n\nDuring this window:\n- Yardi Voyager will be unavailable\n- RentCafe resident portal will be offline\n- API integrations will be paused\n- Mobile app access will be limited\n\nImpact to your operations:\n- Online rent payments submitted after 10:30 PM GMT will be queued and processed after maintenance\n- Maintenance requests submitted via RentCafe will be held until service resumes\n- Automated reports scheduled during the window will run upon system restart\n\nNo action is required on your part. Please ensure your teams are aware of the outage window.\n\nThank you for your patience.\nYardi Support Team",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_048",
+      "thread_id": "thread_042",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T07:00:00Z",
+      "from": {
+        "name": "Orla Nolan",
+        "email": "orla.nolan@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_005"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "cc": "conor.walsh@manageco.ie, aisling.murphy@manageco.ie, cormac.daly@manageco.ie",
+      "subject": "Storm damage report - Thornbury and wider portfolio check",
+      "body": "Hi all,\n\nStorm Eanna came through last night and we've had some damage at Thornbury:\n- 3 fence panels down (Houses 12/13 boundary)\n- Large branch fallen on communal footpath\n- 2 wheelie bins blown into the road\n- Satellite dish dislodged on House 7\n- Water pooling in the underground car park entrance (drain may be blocked)\n\nI'm getting our handyman out this morning and will have a fencing contractor on-site by the afternoon.\n\nCan you each check your properties this morning and report back? Met Eireann has another orange warning for tonight so we need to deal with anything loose or damaged before it gets worse.\n\nPriorities: anything that's a safety risk (fallen objects, blocked paths, electrical exposure) needs addressing today.\n\nShauna",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_049",
+      "thread_id": "thread_043",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T14:20:00Z",
+      "from": {
+        "name": "Andrew Morton",
+        "email": "andrew.morton@schindler.com",
+        "type": "contractor",
+        "company": "Schindler"
+      },
+      "to": "conor.walsh@manageco.ie",
+      "subject": "reds Works Lift 2 - Recurring fault analysis",
+      "body": "Declan,\n\nFollowing the third callout to Lift 2 in 30 days, I wanted to give you an update on what we're finding.\n\nThe OL-14 error code that keeps triggering relates to the overload sensor. Our engineer has identified that:\n\n1. The load sensor calibration is drifting — it's triggering the overload protection at approximately 60% of actual capacity\n2. The controller board is showing intermittent faults on the floor-selection circuit\n3. Door operator motor is showing increased current draw, suggesting worn brushes\n\nOur recommendation:\n- Immediate: Recalibrate load sensor (included in service contract)\n- Short-term: Replace controller board — €4,200 + labour\n- Short-term: Replace door operator motor — €1,800 + labour\n- Total estimate for parts and labour: €7,650 + VAT\n\nAlternatively, given the lift is 14 years old, you may want to consider a full modernisation. We could provide a quote for that if interested.\n\nThe lift is safe to operate after today's recalibration, but the other faults will likely cause further outages without the parts replacement.\n\nLet me know how you'd like to proceed.\n\nAndrew Morton\nService Manager, Schindler Ireland",
+      "attachments": [
+        "lift2_fault_report_mar2026.pdf",
+        "schindler_repair_quote_CW.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_050",
+      "thread_id": "thread_044",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T11:30:00Z",
+      "from": {
+        "name": "Diarmuid Fahey",
+        "email": "diarmuid.fahey@outlook.ie",
+        "type": "tenant",
+        "unit": "Apt 9C",
+        "property_id": "prop_003"
+      },
+      "to": "graylings@manageco.ie",
+      "subject": "Re: Formal noise warning",
+      "body": "Maeve,\n\nI've just received your warning letter and I think it's completely unfair.\n\nYes, I had some friends over on Saturday, but it wasn't a party. We were watching the rugby and had a few drinks. We weren't any louder than normal conversation. The guy downstairs has been banging on my door and giving me dirty looks in the hall for weeks.\n\nThe dates he's listed — Feb 21 was my birthday. I had 4 people over until midnight, not 3:30am. Feb 28 I was watching a movie. Tonight (March 5) was the Six Nations, we had the TV on.\n\nI feel like I'm being harassed by my neighbour and now management is siding with him without even hearing my side first. That's not fair.\n\nI'd like to meet in person to discuss this. I'm not signing any acknowledgment of the warning until I've had a chance to give my version of events.\n\nDiarmuid Fahey\nApt 9C",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_051",
+      "thread_id": "thread_045",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T11:00:00Z",
+      "from": {
+        "name": "Irish Water",
+        "email": "commercial@water.ie",
+        "type": "contractor",
+        "company": "Irish Water"
+      },
+      "to": "accounts@manageco.ie",
+      "subject": "citynorth Quarter - Unusual consumption alert",
+      "body": "Dear Customer,\n\nOur monitoring system has detected unusually high water consumption at the following connection:\n\nAccount: CW-2019-00847\nProperty: citynorth Quarter\nConnection: Main commercial meter\n\nNormal daily average: 18,500 litres\nCurrent daily average (past 7 days): 31,200 litres\nIncrease: 68.6%\n\nThis level of increase typically indicates a leak in the supply system, a running overflow, or an issue with internal plumbing.\n\nWe recommend:\n1. Check all plant rooms for visible leaks\n2. Inspect water tanks and overflow pipes\n3. Conduct a night-flow test (check meter reading at midnight and 4am when usage should be minimal)\n\nIf the increased consumption is due to a leak on your side of the meter, you may be eligible for a leak allowance on your bill. Contact us within 14 days with evidence of the repair.\n\nIrish Water Commercial Team",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_052",
+      "thread_id": "thread_046",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T08:15:00Z",
+      "from": {
+        "name": "Min-Ji Park",
+        "email": "minji.park@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 17A",
+        "property_id": "prop_001"
+      },
+      "to": "citynorth@manageco.ie",
+      "subject": "Smart lock not working - locked out",
+      "body": "Hi,\n\nMy smart lock stopped working and I can't get into my apartment. I'm standing outside my door right now. The app says \"device offline\" and the keypad isn't responding either.\n\nI've tried:\n- Restarting the app\n- Using the physical key backup (the keyhole seems stuck)\n- Replacing the battery indicator shows low on the app\n\nI need to get into my apartment now — I have a work call in 20 minutes.\n\nCan someone from maintenance come up immediately or can the concierge let me in with a master key?\n\nI'm on the 4th floor outside Apt 17A.\n\nSoo-Jin\n087 555 1234",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_053",
+      "thread_id": "thread_047",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T12:30:00Z",
+      "from": {
+        "name": "RTE News Desk",
+        "email": "newsdesk@rte.ie",
+        "type": "external",
+        "company": "RTE"
+      },
+      "to": "press@manageco.ie",
+      "subject": "Media inquiry - BTR tenant satisfaction investigation",
+      "body": "Good afternoon,\n\nI'm a reporter with RTE Investigates working on a piece about tenant satisfaction in Build-to-Rent developments in Dublin.\n\nWe're hearing mixed feedback from residents across several BTR developments and would like to give management companies the opportunity to participate.\n\nSpecifically:\n1. Would a representative from ManageCo be available for an on-camera interview?\n2. Can you provide data on tenant satisfaction scores across your portfolio?\n3. We've received specific complaints about maintenance response times at one of your properties — can we discuss?\n4. What is your average rent increase across the portfolio for 2025-2026?\n\nWe're aiming to broadcast the segment on March 20th. We'd appreciate a response by March 10th.\n\nThank you,\nRTE News Desk",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_054",
+      "thread_id": "thread_048",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T09:20:00Z",
+      "from": {
+        "name": "Carlos Mendez",
+        "email": "carlos.mendez@proton.me",
+        "type": "tenant",
+        "unit": "Apt 11C",
+        "property_id": "prop_004"
+      },
+      "to": "ilah@manageco.ie",
+      "subject": "Permission to install wall-mounted TV bracket",
+      "body": "Hi Ronan,\n\nI'd like to mount my TV on the living room wall. It would require drilling 4 holes for a wall bracket.\n\nBefore I go ahead, I want to check:\n- Do I need written permission?\n- Is there a process or form to fill out?\n- I'll obviously fill the holes when I move out\n- The wall is plasterboard — do you know if there's a stud finder I can borrow from maintenance?\n\nHappy to send a photo of the proposed location if that helps with approval.\n\nThanks,\nMateo\nApt 11C",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_055",
+      "thread_id": "thread_049",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T16:30:00Z",
+      "from": {
+        "name": "Ilah Owners Management Company",
+        "email": "omc@millfordomc.ie",
+        "type": "landlord",
+        "company": "Ilah OMC",
+        "property_id": "prop_004"
+      },
+      "to": "cormac.daly@manageco.ie",
+      "subject": "AGM notice and agenda - April 3rd",
+      "body": "Dear Ronan,\n\nPlease find attached the notice for the Annual General Meeting of the Ilah Residences Owners Management Company.\n\nDate: Thursday, April 3rd, 2026\nTime: 7:00 PM\nVenue: Ilah Residences Community Room\n\nAgenda items requiring your input:\n1. Property Manager's annual report (you'll present)\n2. 2026/27 service charge budget for approval\n3. Proposed capital expenditure: car park resurfacing (€85,000 estimate)\n4. Review of management company performance\n5. Sinking fund status and projections\n\nPlease prepare:\n- Your annual property management report\n- Draft service charge budget with year-on-year comparison\n- 3 quotes for car park resurfacing\n- Updated 10-year maintenance plan\n\nDocuments to the OMC board by March 25th please.\n\nKind regards,\nIlah OMC Secretary",
+      "attachments": [
+        "agm_notice_2026.pdf",
+        "proxy_form.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_056",
+      "thread_id": "thread_050",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T06:30:00Z",
+      "from": {
+        "name": "Dave Cummins",
+        "email": "ray@shieldguard.ie",
+        "type": "contractor",
+        "company": "ShieldGuard Security"
+      },
+      "to": "conor.walsh@manageco.ie",
+      "subject": "reds Works - Security patrol report Feb 2026",
+      "body": "Declan,\n\nPlease find the February patrol report attached. Key highlights:\n\nIncidents:\n- Feb 3: Attempted tailgating through main entrance. 2 non-residents followed a tenant in. Challenged and escorted out.\n- Feb 11: Noise complaint response, Apt 31C. Loud music at 1:30am. Tenant cooperated.\n- Feb 15: Suspicious vehicle in car park (unreg, no permit). Towed next day.\n- Feb 22: Broken glass in stairwell, Floor 7. Cleaned and reported.\n- Feb 27: Fire door on Floor 4 found propped open. Wedge removed. Third time this month.\n\nPatrol completion rate: 98% (1 patrol missed due to callout at another site)\n\nObservations:\n- The fire door propping is a recurring problem on Floor 4. Suggest installing door alarms.\n- Lighting in car park level B2 has 3 bulbs out — making it quite dark in the southeast corner.\n- The intercom panel at the side entrance is intermittently failing.\n\nHappy to discuss.\n\nDave Cummins\nShieldGuard Security",
+      "attachments": [
+        "security_report_feb2026_CW.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_057",
+      "thread_id": "thread_051",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T10:50:00Z",
+      "from": {
+        "name": "Sean Morrissey",
+        "email": "sean.morrissey@live.ie",
+        "type": "tenant",
+        "unit": "Apt 31C",
+        "property_id": "prop_002"
+      },
+      "to": "redsworks@manageco.ie",
+      "subject": "My RTB complaint - want to talk",
+      "body": "Declan,\n\nI know you've gotten the RTB letter about my complaint. I want you to know I didn't want it to come to this.\n\nI reported the damp in October. Someone came out in November, painted over it, and it was back within 2 weeks. I reported it again in December, nothing happened. Reported again in January, got a dehumidifier dropped off but no actual fix.\n\nMy GP has now written a letter saying the mould is contributing to my respiratory issues. I have a 3-year-old daughter sleeping in that room.\n\nI'd still rather sort this without the RTB process. If you can commit to a proper surveyor inspection, a real fix (not just painting over it), and reasonable compensation for the months of living with mould, I'd be willing to withdraw the complaint.\n\nBut I need action this week, not another promise.\n\nCian\nApt 31C",
+      "attachments": [
+        "gp_letter_mould.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_058",
+      "thread_id": "thread_052",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T10:45:00Z",
+      "from": {
+        "name": "DCC Planning",
+        "email": "planning@dublincity.ie",
+        "type": "legal",
+        "company": "Dublin City Council"
+      },
+      "to": "info@manageco.ie",
+      "subject": "Notice of adjacent development - Ref: 3847/26",
+      "body": "Dear Sir/Madam,\n\nThis is to notify you that a planning application (Ref: 3847/26) has been submitted for the site adjacent to citynorth Quarter.\n\nApplicant: Oakmount Construction Ltd\nProposed development: 18-storey residential tower (242 units) with ground floor retail and basement car park\nSite: Former industrial lands, Station Road\n\nKey impacts during construction (estimated 30 months):\n- Heavy construction traffic on Station Road\n- Potential noise and dust\n- Crane operations adjacent to boundary\n- Possible temporary road closures\n\nThe application is available for public inspection. Submissions can be made until April 4th, 2026.\n\nThis notice is for information purposes. You may wish to make a submission if the proposed development could affect your property or residents.\n\nPlanning Department\nDublin City Council",
+      "attachments": [
+        "planning_notice_3847_26.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_059",
+      "thread_id": "thread_053",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T08:05:00Z",
+      "from": {
+        "name": "Orla Nolan",
+        "email": "orla.nolan@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_005"
+      },
+      "to": "fergal@mannionlaw.ie",
+      "subject": "Re: Tenant breach of lease - Apt 4B, Thornbury Village",
+      "body": "Fergal,\n\nThanks for the draft warning notice. I've reviewed it and have a couple of additions:\n\n1. Can we also reference the clause about maintaining the property in good condition? The tenant has left furniture and rubbish in the communal hallway multiple times.\n\n2. The unauthorized occupants situation — I've now confirmed through our fob access records that 4 different fobs are being used regularly for Apt 4B. The lease names only Mr. Phelan and his partner.\n\n3. I'd also like to include that the service charge must be paid within 14 days as part of the remediation.\n\nI plan to serve it by registered post on Monday. Can you update the draft by end of day today?\n\nAlso, unrelated — can you do a quick review of our standard lease template? We haven't updated it since 2024 and I'm worried it doesn't reflect the March 2026 legislation changes.\n\nShauna",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_060",
+      "thread_id": "thread_054",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T11:45:00Z",
+      "from": {
+        "name": "Fiona Redmond",
+        "email": "fiona.redmond@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 5A",
+        "property_id": "prop_003"
+      },
+      "to": "graylings@manageco.ie",
+      "subject": "Internet keeps dropping - is it a building issue?",
+      "body": "Hi Maeve,\n\nMy internet has been dropping out multiple times a day for the past week. I work from home full-time as a software developer and this is seriously affecting my work.\n\nI called Virgin Media and they said their service to the building is fine — no outages on their side. They suggested it might be an issue with the internal building cabling or the comms room.\n\nTwo of my neighbours on the 5th floor (the person in 5B and the guy in 5D) are having the same issue, so it seems like it's not just my apartment.\n\nCan you check if there's a known issue with the building's telecoms infrastructure on our floor? If cabling work is needed, I'd want to know the timeline as I may need to work from a coffee shop or co-working space and would expect not to be out of pocket for that.\n\nThanks,\nSorcha\nApt 5A",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_061",
+      "thread_id": "thread_055",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T15:45:00Z",
+      "from": {
+        "name": "Thornbury Residents Association",
+        "email": "residents@thornbury.ie",
+        "type": "tenant",
+        "property_id": "prop_005"
+      },
+      "to": "orla.nolan@manageco.ie",
+      "subject": "Petition: Speed bumps and playground request",
+      "body": "Dear Shauna,\n\nThe Thornbury Residents Association has collected signatures from 42 of 64 households (66%) in support of the following requests:\n\n1. SPEED BUMPS: Cars are consistently speeding through the estate. We've had several near-misses with children. We request that at least 3 speed bumps be installed on the main estate road.\n\n2. PLAYGROUND: The green area near Houses 20-30 is unused. Parents have requested a small playground be installed. We've sourced indicative quotes ranging from €15,000 to €35,000 depending on specification.\n\n3. ADDITIONAL LIGHTING: The path between Houses 15-20 is very dark at night. Several residents feel unsafe using it after dark.\n\nWe understand these are capital expenditure items and would need OMC approval. We'd like to present these at the next OMC meeting and request that they be added to the agenda.\n\nPetition signatures attached.\n\nKind regards,\nThornbury Residents Association",
+      "attachments": [
+        "petition_speed_bumps.pdf",
+        "playground_quotes.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_062",
+      "thread_id": "thread_056",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T09:35:00Z",
+      "from": {
+        "name": "Conor Walsh",
+        "email": "conor.walsh@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_002"
+      },
+      "to": "b.feeney@hmdproperties.ie",
+      "subject": "RTB case DR-2026-0847 - Urgent discussion needed",
+      "body": "Gerard,\n\nWe've received a formal RTB complaint from the tenant in Apt 31C regarding damp and mould that's been reported since October 2025.\n\nI want to be transparent — the maintenance history on this one isn't great. The initial response was cosmetic (paint over) and subsequent reports didn't get adequate follow-up. The tenant has a GP letter linking the mould to respiratory issues and his 3-year-old daughter sleeps in the affected room.\n\nThe tenant has indicated willingness to settle if we:\n1. Commission a proper damp survey immediately\n2. Carry out proper remediation (not cosmetic)\n3. Offer reasonable compensation\n\nMy recommendation is to settle. Fighting this at the RTB will likely result in:\n- Larger compensation award\n- Public record of the case\n- Potential media attention (we've already had an RTE inquiry about BTR maintenance)\n- Reputational damage\n\nCan we discuss today? I need to respond to both the RTB and the tenant this week.\n\nDeclan",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_063",
+      "thread_id": "thread_057",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T09:15:00Z",
+      "from": {
+        "name": "ESB Networks",
+        "email": "planned.outages@esb.ie",
+        "type": "contractor",
+        "company": "ESB Networks"
+      },
+      "to": "info@manageco.ie",
+      "subject": "Planned power outage notification - Graylings area",
+      "body": "Dear Customer,\n\nWe wish to inform you of a planned power outage affecting the Graylings area:\n\nDate: Thursday, March 13th, 2026\nTime: 9:00 AM - 3:00 PM\nReason: Substation upgrade works\nAffected area: All buildings on Graylings Road and surrounding streets\n\nDuring this time:\n- There will be no mains electricity supply\n- Lifts will be out of service\n- Emergency lighting will activate on battery backup\n- Electric gates/access control may be affected\n- Fire alarm system will run on battery backup (limited duration)\n\nWe recommend:\n- Notifying all residents in advance\n- Ensuring backup systems are fully charged\n- Having manual override procedures ready for access control\n- Stationing a member of staff in the building if possible\n\nESB Networks apologises for any inconvenience.\n\nESB Networks",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_064",
+      "thread_id": "thread_058",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T10:20:00Z",
+      "from": {
+        "name": "Colm Higgins",
+        "email": "colm.higgins@outlook.ie",
+        "type": "tenant",
+        "unit": "Apt 20B",
+        "property_id": "prop_001"
+      },
+      "to": "citynorth@manageco.ie",
+      "subject": "Request for reference letter",
+      "body": "Hi Tara,\n\nI'm applying for a mortgage and my bank has asked for a landlord reference letter confirming:\n- How long I've been a tenant\n- That I've always paid rent on time\n- That I've been a good tenant with no issues\n\nI've been in Apt 20B since June 2023 — nearly 3 years now. Never missed a payment and I've always looked after the place.\n\nCould you provide a letter on company letterhead? I need it by March 14th for my mortgage application deadline.\n\nMany thanks,\nColm Higgins\nApt 20B",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_065",
+      "thread_id": "thread_059",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T13:00:00Z",
+      "from": {
+        "name": "Cormac Daly",
+        "email": "cormac.daly@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_004"
+      },
+      "to": "mick@reganplumbing.ie",
+      "subject": "Re: Annual boiler service quote - Ilah Residences",
+      "body": "Mick,\n\nThanks for the quote. The price looks reasonable but I need to run it past the OMC for approval at their next meeting (April 3rd).\n\nIn the meantime, a few questions:\n1. Can you stagger the work so we're not doing entire floors on the same day? Helps with noise for residents.\n2. What's the process if a tenant isn't available on the scheduled day — do you come back at no extra cost?\n3. The units on Floor 6 have a different boiler model (Worcester Greenstar) — does the per-unit price still apply?\n4. Can you provide your gas safe registration number and insurance cert for our records?\n\nI'll send out tenant access notices once we have the go-ahead. March 24th start date works well for us.\n\nRonan",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_066",
+      "thread_id": "thread_060",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T11:10:00Z",
+      "from": {
+        "name": "Emma Fitzpatrick",
+        "email": "emma.fitzpatrick@mrisoftware.com",
+        "type": "contractor",
+        "company": "MRI Software"
+      },
+      "to": "it@manageco.ie",
+      "cc": "conor.walsh@manageco.ie",
+      "subject": "MRI integration update - reds Works API sync issue",
+      "body": "Hi team,\n\nWe've identified an issue with the API sync between MRI and your reds Works property data:\n\n1. Tenant payment records from Feb 25-28 didn't sync correctly — 18 transactions showing as 'pending' on our side but 'completed' in your bank reconciliation\n\n2. The maintenance ticket integration is throwing errors on tickets with attachments larger than 5MB — this has been failing silently since our last update (v3.2.1)\n\n3. The new unit availability feed isn't populating correctly for 2-bed units — it's pulling the wrong pricing tier\n\nWe've patched issues 1 and 2 on our staging environment. We'd like to deploy the fix to production this Friday evening (March 7th, 8pm). Can you confirm this window works?\n\nFor issue 3, we need your team to update the unit mapping in the admin panel. I've attached a guide.\n\nApologies for the disruption.\n\nEmma Fitzpatrick\nIntegration Support, MRI Software",
+      "attachments": [
+        "unit_mapping_guide.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_067",
+      "thread_id": "thread_061",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T18:30:00Z",
+      "from": {
+        "name": "Niall Duggan",
+        "email": "niall.duggan@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 1B",
+        "property_id": "prop_003"
+      },
+      "to": "graylings@manageco.ie",
+      "subject": "Ground floor security concerns",
+      "body": "Maeve,\n\nI'm on the ground floor and I'm increasingly worried about security. Over the past month:\n\n- Someone tried to open my patio door at about 2am last Tuesday. I heard them rattling the handle. By the time I got up they were gone.\n- There's a broken lock on the side gate that leads to the ground floor patios. I reported this 3 weeks ago and it still hasn't been fixed.\n- The security light on my side of the building hasn't been working for at least a month.\n\nI feel like a sitting duck. The side gate is basically open access to anyone walking by, and without the security light my patio is pitch dark at night.\n\nI need the gate lock fixed this week and the light replaced. If someone breaks in because of the building's negligence in maintaining security, I'll be holding management responsible.\n\nLiam\nApt 1B",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_068",
+      "thread_id": "thread_062",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T07:20:00Z",
+      "from": {
+        "name": "Sarah Brennan",
+        "email": "sarah.brennan@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_001"
+      },
+      "to": "barry@dublinmaintenance.ie",
+      "subject": "citynorth - Communal boiler error E47 - urgent",
+      "body": "Barry,\n\nThe concierge reported a boiler error (E47) at citynorth Quarter at 3:30am. It's affecting hot water for at least the lower floors. I've already had a complaint from an elderly tenant in Apt 2A.\n\nCan Niall look at this when he's on-site for the ceiling leak in 14B? If it needs a separate callout, let me know ASAP — I need to communicate a timeline to residents.\n\nThis is the communal system, not an individual unit boiler, so it could be affecting a significant number of apartments.\n\nTara",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_069",
+      "thread_id": "thread_063",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T14:00:00Z",
+      "from": {
+        "name": "Threshold Housing Advice",
+        "email": "advice@threshold.ie",
+        "type": "legal",
+        "company": "Threshold"
+      },
+      "to": "emer.crowley92@outlook.com",
+      "cc": "redsworks@manageco.ie",
+      "subject": "Re: Your query - Heating obligation",
+      "body": "Dear Grainne,\n\nThank you for contacting Threshold. We've reviewed the details you've provided regarding the heating failure at your apartment.\n\nUnder Section 12(1)(b) of the Residential Tenancies Act 2004, your landlord is obligated to maintain the property in a proper state of repair. The Housing (Standards for Rented Houses) Regulations 2019 specifically require that heating facilities are maintained in good repair and working order.\n\nA heating failure lasting 3 days, particularly with a young infant in the property, is a serious breach. We recommend:\n\n1. Send a written notice to your landlord/agent by email (for a paper trail) detailing the issue, the dates reported, and the lack of response\n2. Set a reasonable deadline (48 hours given the circumstances)\n3. If not resolved, you can refer the matter to the RTB for dispute resolution\n4. You may also contact your local authority's Environmental Health Officer, as this could constitute a housing standards breach\n\nWe're CC'ing your management company on this email for their attention.\n\nWarm regards,\nThreshold Housing Advice",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_070",
+      "thread_id": "thread_064",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T09:55:00Z",
+      "from": {
+        "name": "Padraig Hogan",
+        "email": "padraig.hogan@thornbury.ie",
+        "type": "tenant",
+        "unit": "House 7",
+        "property_id": "prop_005"
+      },
+      "to": "thornbury@manageco.ie",
+      "subject": "Satellite dish blown off in storm - who pays?",
+      "body": "Hi Shauna,\n\nThe storm last night ripped the satellite dish off the side of our house. It's landed in the front garden and scratched the car.\n\nQuestions:\n1. Is the satellite dish the building's responsibility or mine? It was already installed when we moved in.\n2. The scratch on my car — can I claim against the building's insurance?\n3. How quickly can it be reinstalled? We have no TV without it.\n4. While it's being looked at, can we get Sky to come check the cabling? I think the cable box on the exterior might have been damaged too.\n\nPhotos attached.\n\nHugh\nHouse 7",
+      "attachments": [
+        "dish_fallen.jpg",
+        "car_scratch.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_071",
+      "thread_id": "thread_065",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T11:30:00Z",
+      "from": {
+        "name": "Aisling Murphy",
+        "email": "aisling.murphy@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_003"
+      },
+      "to": "accounts@crestelectrical.ie",
+      "subject": "Re: Overdue Invoice #4892 - Payment update",
+      "body": "Deirdre,\n\nApologies for the delay on this. I've escalated it internally — the invoice had been sitting in the wrong approval queue.\n\nI've confirmed with accounts that payment has been processed today via bank transfer. You should see it in your account within 2 working days.\n\nPlease don't put a hold on the citynorth Quarter jobs next week — those are time-sensitive (gas safety cert related).\n\nI'll personally ensure future invoices are routed correctly. Sorry for the frustration.\n\nMaeve",
+      "attachments": [
+        "payment_confirmation_4892.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_072",
+      "thread_id": "thread_066",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T10:40:00Z",
+      "from": {
+        "name": "Deirdre McCarthy",
+        "email": "deirdre.mccarthy@gmail.com",
+        "type": "prospect"
+      },
+      "to": "thornbury@manageco.ie",
+      "subject": "Downsizing inquiry - 2 bed house available?",
+      "body": "Hello,\n\nMy husband and I are looking to downsize from our 4-bed house in Lucan. Our kids have moved out and we're looking for something more manageable.\n\nWe saw Thornbury Village online and really liked the look of it. Would you have any 2-bed houses available now or coming up in the next few months?\n\nOur priorities:\n- Garden (even small — we love gardening)\n- Quiet estate\n- Pet-friendly (we have an older Labrador)\n- Good security\n- Reasonable management fees\n\nWe'd be cash buyers of our current home so finances won't be an issue. We could commit to a long-term lease.\n\nIs it possible to come visit the estate this weekend?\n\nGeraldine & Noel Egan\n086 777 8890",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_073",
+      "thread_id": "thread_067",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T16:15:00Z",
+      "from": {
+        "name": "HSE Environmental Health",
+        "email": "eho@hse.ie",
+        "type": "legal",
+        "company": "HSE"
+      },
+      "to": "conor.walsh@manageco.ie",
+      "subject": "Housing inspection notice - Apt 31C, reds Works",
+      "body": "Dear Mr. Forde,\n\nFurther to a complaint received from a tenant at the above address, the Environmental Health Service intends to carry out an inspection of Apt 31C, reds Works, under the Housing (Standards for Rented Houses) Regulations 2019.\n\nInspection date: March 14th, 2026\nTime: 10:00 AM\nInspecting Officer: Brendan Moran, Environmental Health Officer\n\nThe purpose of the inspection is to assess reported damp and mould conditions in the property.\n\nPlease ensure access is available. The tenant has been separately notified.\n\nIf the property is found to be in breach of the Regulations, an Improvement Notice may be issued requiring remediation within a specified timeframe. Failure to comply may result in a Prohibition Notice or prosecution.\n\nYours sincerely,\nHSE Environmental Health Service\nDublin South Region",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_074",
+      "thread_id": "thread_068",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T08:55:00Z",
+      "from": {
+        "name": "Rajan Sharma",
+        "email": "rajan.sharma@stripe.com",
+        "type": "tenant",
+        "unit": "Apt 18C",
+        "property_id": "prop_001"
+      },
+      "to": "citynorth@manageco.ie",
+      "subject": "Gym equipment complaint",
+      "body": "Hi,\n\nI pay a premium for living in this building partly because of the amenities, including the gym. But the state of the gym is embarrassing:\n\n- 2 of the 4 treadmills have been out of order for over a month\n- The cable machine has a frayed cable (safety hazard)\n- The bench press is wobbly — feels like it could collapse\n- There's no soap in the bathroom and the shower hasn't worked in weeks\n- The air con seems broken — it's stuffy and smells\n\nI've been paying my amenity fee every month. For a building with 200+ apartments, the gym should be a lot better than this.\n\nWhen is the equipment being replaced? I noticed the management summary mentioned new equipment arriving March 15th — is that confirmed? What exactly is being replaced?\n\nIf the gym isn't brought up to standard, I want a reduction in my amenity charge.\n\nVikram",
+      "attachments": [
+        "gym_frayed_cable.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_075",
+      "thread_id": "thread_069",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T12:15:00Z",
+      "from": {
+        "name": "An Post",
+        "email": "commercial@anpost.ie",
+        "type": "contractor",
+        "company": "An Post"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "subject": "citynorth Quarter - Parcel locker installation proposal",
+      "body": "Dear Tara,\n\nFollowing our site survey, we're pleased to propose the installation of an An Post Parcel Locker system at citynorth Quarter.\n\nProposal summary:\n- 48-compartment parcel locker unit\n- Installation in ground floor lobby area (as surveyed)\n- No cost to the building — An Post funds installation and maintenance\n- Revenue share: 15% of any paid collection fees to the OMC\n- Reduces failed deliveries and concierge parcel-handling burden\n- Estimated 300+ parcels/month based on building size\n\nBenefits:\n- Residents receive text/email notification when parcel arrives\n- 48-hour collection window\n- Reduces lost/misdelivered parcels\n- Frees up concierge desk storage\n\nWe'd need a 3-year licence agreement. Installation could be completed within 4 weeks of signing.\n\nShall I prepare the formal agreement for your review?\n\nRegards,\nAn Post Commercial Team",
+      "attachments": [
+        "parcel_locker_proposal_citynorth.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_076",
+      "thread_id": "thread_070",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T07:50:00Z",
+      "from": {
+        "name": "Bernadette Coffey",
+        "email": "bernadette.coffey@outlook.ie",
+        "type": "tenant",
+        "unit": "Apt 14A",
+        "property_id": "prop_001"
+      },
+      "to": "citynorth@manageco.ie",
+      "subject": "Concern about construction next door",
+      "body": "Tara,\n\nI've seen the planning notice for the 18-storey tower being built next to us. I'm in Apt 14A which directly faces the proposed site.\n\nMy concerns:\n1. Construction noise — I work from home 3 days a week\n2. Dust and debris — I have asthma\n3. Will it block my light? My apartment currently gets morning sun which is the main reason I chose this unit\n4. Impact on property values and rent levels with more supply coming online\n5. 30 months of construction — that's 2.5 years of disruption\n\nIs management going to make a submission to the planning process on behalf of residents? I think we should object, or at minimum push for conditions on working hours and dust suppression.\n\nAre you organising a residents' meeting about this?\n\nNuala\nApt 14A",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_077",
+      "thread_id": "thread_071",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T15:30:00Z",
+      "from": {
+        "name": "Accounts - ManageCo",
+        "email": "accounts@manageco.ie",
+        "type": "internal",
+        "role": "Accounts"
+      },
+      "to": "all-managers@manageco.ie",
+      "subject": "March rent collection report - Preliminary",
+      "body": "Hi all,\n\nPreliminary March rent collection figures (as of March 5th):\n\ncitynorth Quarter:\n- Collected: €372,400 (94.2%)\n- Outstanding: €22,800 (12 units)\n- Failed DDs: 4\n\nreds Works:\n- Collected: €583,200 (91.8%)\n- Outstanding: €52,100 (24 units)\n- Failed DDs: 9\n\nGraylings:\n- Collected: €198,600 (95.1%)\n- Outstanding: €10,200 (6 units)\n- Failed DDs: 2\n\nIlah Residences:\n- Collected: €156,800 (96.3%)\n- Outstanding: €6,050 (4 units)\n- Failed DDs: 1\n\nThornbury Village:\n- Collected: €84,200 (93.5%)\n- Outstanding: €5,850 (5 units)\n- Failed DDs: 3\n\nPlease chase outstanding payments and update arrears notes by March 10th.\n\nAccounts Team",
+      "attachments": [
+        "march_rent_collection_prelim.xlsx"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_078",
+      "thread_id": "thread_072",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T09:10:00Z",
+      "from": {
+        "name": "Patrick Quinn",
+        "email": "patrick.quinn@hotmail.com",
+        "type": "tenant",
+        "unit": "Apt 2C",
+        "property_id": "prop_004"
+      },
+      "to": "ilah@manageco.ie",
+      "subject": "Wheelchair accessibility issue - ramp",
+      "body": "Ronan,\n\nSince my accident in January, I've been using a wheelchair temporarily. I'm expected to need it for another 3-4 months.\n\nThe issue is that the step at the main entrance doesn't have a ramp. There's a back entrance with level access but it requires going all the way around the building, which isn't practical in bad weather.\n\nI know installing a permanent ramp might be a big ask, but could you arrange a temporary portable ramp? They're not expensive — I've seen them for about €200-€400.\n\nI'd appreciate a quick response as I'm currently relying on neighbours to help me over the step, which isn't sustainable.\n\nBrendan\nApt 2C",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_079",
+      "thread_id": "thread_073",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T10:15:00Z",
+      "from": {
+        "name": "Laura Phelan",
+        "email": "laura.phelan@graystone.ie",
+        "type": "landlord",
+        "company": "graystone",
+        "property_id": "prop_001"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "subject": "Tenant event - April community BBQ",
+      "body": "Tara,\n\ngraystone wants to fund a community BBQ event for citynorth Quarter residents in April (weather permitting — maybe April 19th?).\n\nBudget: Up to €3,000\n\nWe're thinking:\n- BBQ catering on the rooftop terrace\n- Live acoustic music\n- Kids' activities if there are families\n- Welcome packs for new residents who moved in this year\n\nCan you:\n1. Check if the rooftop is available and suitable\n2. Gauge resident interest (maybe a quick survey)\n3. Source catering quotes\n4. Handle logistics and promotion\n\nThis is part of our community building initiative and ties into the ESG social metrics we're reporting on.\n\nFiona",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_080",
+      "thread_id": "thread_015",
+      "thread_position": 2,
+      "timestamp": "2026-03-06T10:55:00Z",
+      "from": {
+        "name": "Kevin Dunne",
+        "email": "barry@dublinmaintenance.ie",
+        "type": "contractor",
+        "company": "Dublin Maintenance Solutions"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "subject": "Re: citynorth - Communal boiler error E47 - urgent",
+      "body": "Tara,\n\nNiall's looked at both issues:\n\n1. CEILING LEAK (Apt 14B): It's a burst flexi-hose under the kitchen sink in 15B. We've isolated and replaced it. Niall will run a dehumidifier in 14B to dry the ceiling. Might need a painter in a few days once it's dry. Total for the hose repair: €95 + callout.\n\n2. COMMUNAL BOILER (E47 error): This is more involved. The primary heat exchanger is showing a blockage. We've managed a temporary reset but it will likely fault again within 24-48 hours. The heat exchanger needs a powerflush or possible replacement.\n\n- Powerflush option: €650 + VAT, can do tomorrow morning\n- Heat exchanger replacement: €2,800 + VAT, 3-day lead time on the part\n\nMy recommendation: Do the powerflush first. If that clears the blockage, you're good. If not, we'll need the replacement.\n\nHot water is restored for now but may drop out again.\n\nBarry",
+      "attachments": [
+        "boiler_inspection_report.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_081",
+      "thread_id": "thread_074",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T08:30:00Z",
+      "from": {
+        "name": "Stephen Doolan",
+        "email": "stephen.doolan@yahoo.ie",
+        "type": "tenant",
+        "unit": "Apt 25A",
+        "property_id": "prop_002"
+      },
+      "to": "redsworks@manageco.ie",
+      "subject": "Rent reduction request during lift outages",
+      "body": "Declan,\n\nI'm on the 9th floor and Lift 2 has been out of service three times this month alone. Combined with the times Lift 1 has been crowded because it's the only one working, I've been late to work twice because I couldn't get downstairs in time.\n\nFor a building charging premium rents, having a single working lift for 300+ residents is not acceptable. I didn't sign up for climbing 9 flights of stairs.\n\nI'd like to formally request a rent reduction for any month where lift service is materially disrupted. I'm not talking about occasional maintenance — I mean the repeated breakdowns we've been experiencing.\n\nI've spoken to several neighbours and they feel the same way. If this isn't addressed, we'll be raising it collectively.\n\nGavin\nApt 25A",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_082",
+      "thread_id": "thread_075",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T13:30:00Z",
+      "from": {
+        "name": "Green Energy Solutions",
+        "email": "info@greenenergy.ie",
+        "type": "contractor",
+        "company": "Green Energy Solutions"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "subject": "EV charging station installation proposal - citynorth Quarter",
+      "body": "Hi Tara,\n\nFollowing up on our conversation at PropTech Connect, please find our proposal for EV charging infrastructure at citynorth Quarter.\n\nOption A - Basic:\n- 10 x 7kW charging points in the car park\n- Smart load management\n- Pay-per-use (resident app)\n- Installation cost: €45,000 + VAT\n- Revenue model: €0.35/kWh to residents, estimated €800/month revenue\n\nOption B - Premium:\n- 20 x 22kW charging points\n- Solar canopy integration (reduces grid demand)\n- Dynamic load balancing\n- Installation cost: €125,000 + VAT\n- Revenue model: €0.30/kWh to residents, estimated €2,400/month revenue\n- SEAI grant available: up to €30,000\n\nBoth options include 5-year maintenance contract and hardware warranty.\n\nROI analysis and full proposal attached. Happy to present to graystone if useful.\n\nGreen Energy Solutions",
+      "attachments": [
+        "ev_charging_proposal_citynorth.pdf",
+        "roi_analysis.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_083",
+      "thread_id": "thread_076",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T11:55:00Z",
+      "from": {
+        "name": "Isabelle Dempsey",
+        "email": "isabelle.dempsey@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 13B",
+        "property_id": "prop_003"
+      },
+      "to": "graylings@manageco.ie",
+      "subject": "Smells from neighbouring apartment",
+      "body": "Hi Maeve,\n\nThis is a sensitive one and I'm not sure how to handle it.\n\nThere's a strong, unpleasant smell coming from the apartment next door (13A). It's been getting worse over the past week. It seems to come through the shared wall, particularly in the hallway.\n\nI don't want to cause trouble for my neighbour, but the smell is affecting my quality of life. I've tried air fresheners and opening windows but it just comes back.\n\nI also haven't seen the tenant from 13A in over a week, which is unusual — she's normally in and out. Her post is piling up outside the door.\n\nI'm probably overthinking this but given the smell and the fact I haven't seen her... should someone check on her?\n\nSienna\nApt 13B",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_084",
+      "thread_id": "thread_077",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T09:45:00Z",
+      "from": {
+        "name": "Zurich Insurance",
+        "email": "claims@zurich.ie",
+        "type": "contractor",
+        "company": "Zurich Insurance"
+      },
+      "to": "accounts@manageco.ie",
+      "subject": "Claim update - reds Works water damage Dec 2025",
+      "body": "Dear ManageCo,\n\nRe: Claim Reference ZI-2025-44891\nProperty: reds Works\nIncident: Water damage from burst pipe, December 14th 2025\nAffected areas: Apts 15A, 14A, and common corridor Floor 3\n\nOur assessor has completed their report. Summary:\n\n- Total assessed damage: €28,450\n- Building damage (ceiling, walls, flooring): €22,100\n- Contents damage (Apt 15A personal belongings): Referred to tenant's own policy\n- Common area remediation: €6,350\n\nLess excess: €2,500\nNet settlement offer: €25,950\n\nPlease confirm acceptance of this settlement by March 14th. If you wish to dispute, provide supporting documentation.\n\nNote: The assessor has recommended a full plumbing inspection of the riser serving the affected stack to prevent recurrence. This is a condition of maintaining cover at the current premium.\n\nZurich Insurance Claims Team",
+      "attachments": [
+        "claim_assessment_ZI2025_44891.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_085",
+      "thread_id": "thread_078",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T07:35:00Z",
+      "from": {
+        "name": "Lorcan Gleeson",
+        "email": "lorcan.gleeson@outlook.com",
+        "type": "tenant",
+        "unit": "Apt 4D",
+        "property_id": "prop_004"
+      },
+      "to": "ilah@manageco.ie",
+      "subject": "Smoke smell from neighbour's apartment",
+      "body": "Ronan,\n\nThe tenant in Apt 4C is smoking inside their apartment and the smell is coming into mine through the vents and what I think is a gap around the pipes under the kitchen sink.\n\nI chose a non-smoking building specifically because I have asthma. The smell is worst in the evenings and at weekends. It's making my eyes water and I've had to use my inhaler more frequently.\n\nI've checked my lease and it says smoking is prohibited inside all apartments. Can you enforce this? I don't want to confront my neighbour directly.\n\nEamon\nApt 4D",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_086",
+      "thread_id": "thread_079",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T14:45:00Z",
+      "from": {
+        "name": "BTR News",
+        "email": "editor@btrnews.ie",
+        "type": "external",
+        "company": "BTR News"
+      },
+      "to": "marketing@manageco.ie",
+      "subject": "Platinum sponsor content - March issue deadline",
+      "body": "Hi team,\n\nJust a reminder that the content deadline for the March issue of BTR News is March 10th.\n\nAs a platinum sponsor, you have the following allocations:\n- Full page advertisement (artwork needed)\n- 800-word thought leadership article\n- Company profile update\n- Logo placement on the newsletter banner\n\nWe also have a slot for a Q&A feature with one of your team if you're interested — these perform really well with our readership.\n\nPlease send all materials to editor@btrnews.ie. Artwork specs: A4, 300dpi, CMYK.\n\nLooking forward to the content!\n\nBTR News Editorial Team",
+      "attachments": [
+        "ad_specs_march_2026.pdf"
+      ],
+      "read": true
+    },
+    {
+      "id": "email_087",
+      "thread_id": "thread_080",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T10:10:00Z",
+      "from": {
+        "name": "Auto Alert - Water Leak Sensor",
+        "email": "alerts@buildingmonitor.io",
+        "type": "system",
+        "property_id": "prop_004"
+      },
+      "to": "cormac.daly@manageco.ie",
+      "subject": "[ALERT] Water leak detected - Ilah Residences Plant Room",
+      "body": "AUTOMATED ALERT\n\nProperty: Ilah Residences\nSystem: Water Leak Detection\nAlert Type: ACTIVE LEAK\nTimestamp: 2026-03-06 10:08:33 GMT\n\nDetails:\n- Sensor 4 (Main Plant Room, Ground Floor) has triggered\n- Water detected on floor near main supply manifold\n- Flow rate abnormality confirmed by smart meter\n- Estimated leak rate: Moderate (sensor threshold exceeded)\n\nRecommended Action:\n- Inspect plant room immediately\n- Isolate supply if leak is significant\n- Contact plumber for repair\n- Check if this correlates with the planned water shutdown on March 12th (valve could be degraded)\n\nThis is an automated alert. Do not reply to this email.",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_088",
+      "thread_id": "thread_081",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T17:15:00Z",
+      "from": {
+        "name": "Eamonn Dillon",
+        "email": "eamonn.dillon@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 8B",
+        "property_id": "prop_002"
+      },
+      "to": "redsworks@manageco.ie",
+      "subject": "Packages going missing",
+      "body": "Declan,\n\nThis is the third package that's gone missing from the lobby in the past 2 months. Today it was a laptop worth €1,200 that An Post confirms was delivered and left at the concierge desk.\n\nWhen I asked the concierge, he said he didn't have a record of it. But I have a delivery confirmation with a photo showing it was left on the desk.\n\nThis is a serious security issue. Either packages are being stolen from the lobby or the concierge isn't logging them properly. Either way, I want:\n\n1. CCTV footage reviewed for today between 12-3pm\n2. A proper package logging system implemented\n3. Compensation or insurance claim support for my missing laptop\n\nI've reported the previous two missing packages as well (Amazon order Dec 15, ASOS order Jan 22) and nothing was done.\n\nPadraig\nApt 8B",
+      "attachments": [
+        "delivery_confirmation.jpg"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_089",
+      "thread_id": "thread_082",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T08:45:00Z",
+      "from": {
+        "name": "Sarah Brennan",
+        "email": "sarah.brennan@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_001"
+      },
+      "to": "marketing@manageco.ie",
+      "subject": "Fwd: Group viewing for Revolut relocation employees",
+      "body": "Hi team,\n\nForwarding this from Wei at Revolut — potential 8-unit let. This is a great opportunity for occupancy.\n\nCan someone prepare:\n- Availability list for studios and 1-beds (current and expected within 30 days)\n- Corporate rate card (I think Jon put something together last month?)\n- Building amenity pack for the viewing\n\nI'll respond to Wei and propose a viewing for Tuesday or Wednesday next week.\n\nThis kind of corporate relationship is exactly what we want to build — steady occupancy from reliable corporate tenants.\n\nTara",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_090",
+      "thread_id": "thread_083",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T10:30:00Z",
+      "from": {
+        "name": "EPA",
+        "email": "waste@epa.ie",
+        "type": "legal",
+        "company": "Environmental Protection Agency"
+      },
+      "to": "aisling.murphy@manageco.ie",
+      "subject": "Waste management inspection scheduled - Graylings",
+      "body": "Dear Ms. Tierney,\n\nThe Environmental Protection Agency will be conducting a waste management inspection at Graylings on March 19th, 2026.\n\nThe inspection will assess:\n- Waste segregation compliance (general, recycling, organic)\n- Bin store condition and accessibility\n- Waste collection records and contracts\n- Contamination management measures\n- Commercial waste documentation\n\nPlease have the following ready:\n1. Current waste collection contract\n2. Waste management plan for the property\n3. Records of any contamination incidents and corrective actions\n4. Recycling education materials provided to residents\n\nThe inspection is part of our routine commercial waste compliance programme.\n\nEPA Waste Enforcement",
+      "attachments": [
+        "inspection_notice_graylings.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_091",
+      "thread_id": "thread_084",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T09:40:00Z",
+      "from": {
+        "name": "Brian Farrell",
+        "email": "brian.farrell@gmail.com",
+        "type": "tenant",
+        "unit": "Apt 15A",
+        "property_id": "prop_001"
+      },
+      "to": "citynorth@manageco.ie",
+      "subject": "Following up on December water damage claim",
+      "body": "Tara,\n\nI'm following up on the water damage to my apartment from the burst pipe in December. It's been nearly 3 months and I still haven't been able to use my spare bedroom.\n\nThe ceiling was repaired in January but the carpet is still ruined and stinks of damp. I was told the insurance assessor would be in touch about replacing it. I've heard nothing.\n\nMy personal belongings that were damaged (laptop, books, photo albums) — the assessor told me to claim on my own contents insurance. My insurer is now asking for a letter from management confirming the cause of damage wasn't my fault.\n\nCan you please:\n1. Give me an update on the carpet replacement timeline\n2. Provide the letter my insurer needs\n3. Confirm when the skirting boards will be replaced (they're warped from the water)\n\nI've been very patient but 3 months without a usable bedroom is not on.\n\nColm\nApt 15A",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_092",
+      "thread_id": "thread_085",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T15:10:00Z",
+      "from": {
+        "name": "Conor Walsh",
+        "email": "conor.walsh@manageco.ie",
+        "type": "internal",
+        "role": "Property Manager",
+        "property_id": "prop_002"
+      },
+      "to": "emer.crowley92@outlook.com",
+      "subject": "Re: Heating not working - 3 days now - URGENT RESPONSE",
+      "body": "Grainne,\n\nI sincerely apologise for the completely unacceptable delay in responding to your heating issue. You're right — this should never have taken 3 days and I take full responsibility for the failure in our response process.\n\nI've taken the following actions:\n1. Emergency HVAC engineer dispatched — arriving at your apartment between 1-2pm today\n2. I've personally reviewed why your original report wasn't actioned and I'm implementing changes to prevent this happening again\n3. We're providing a portable oil-filled radiator from our stock within the hour — it will be delivered to your door\n4. I'd like to offer a rent credit for the period you've been without heating\n\nYour baby's comfort and safety is our priority and we failed on that. I'm deeply sorry.\n\nPlease call me directly if the engineer hasn't arrived by 2pm: 087 555 4321\n\nConor Walsh\nProperty Manager, reds Works",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_093",
+      "thread_id": "thread_086",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T10:25:00Z",
+      "from": {
+        "name": "Grainne Burke",
+        "email": "grainne.burke@beauchamps.ie",
+        "type": "legal",
+        "company": "Beauchamps Solicitors"
+      },
+      "to": "orla.nolan@manageco.ie",
+      "subject": "Apt 4B Thornbury - Tenant response to warning notice",
+      "body": "Dear Ms. Devlin,\n\nI act for Mr. Wayne Phelan, tenant at Apt 4B, Thornbury Village.\n\nMy client has instructed me to respond to the warning notice dated March 7th.\n\nMy client's position:\n1. The alleged 'unauthorised occupants' are his brother and friend who stay occasionally but do not reside at the property permanently\n2. The noise complaints are exaggerated and my client has never been spoken to about noise before receiving the formal warning\n3. The entry panel damage occurred during a delivery and was reported by my client himself\n4. The service charge of €450 is disputed as the services outlined have not been provided to the standard described\n\nMy client considers the warning notice to be retaliatory following his service charge complaint and disproportionate to the alleged breaches.\n\nWe request a meeting to discuss resolution before any further escalation. My client's tenancy rights under the RTA 2004 are fully protected and we will resist any attempt at termination.\n\nYours faithfully,\nGrainne Burke\nBeauchamps Solicitors",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_094",
+      "thread_id": "thread_087",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T11:15:00Z",
+      "from": {
+        "name": "N8N Automation",
+        "email": "notifications@n8n.io",
+        "type": "system"
+      },
+      "to": "it@manageco.ie",
+      "subject": "Workflow failed: Attio → Notion sync",
+      "body": "Workflow execution failed.\n\nWorkflow: Attio Call Recording → Notion Weekly Sync\nExecution ID: exec_2026030511_a8f2\nFailed at: Notion Create Page node\nError: 401 Unauthorized - API token expired\n\nDetails:\nThe workflow attempted to create a new Notion page from the latest Attio call recording for Storyhouse weekly sync. The Notion API returned a 401 error indicating the integration token has expired or been revoked.\n\nLast successful execution: March 3rd, 2026\nAffected records: 3 call recordings pending sync\n\nAction required:\n- Regenerate Notion API token\n- Update the token in the N8N credential store\n- Manually trigger sync for the 3 pending records\n\nThis is an automated notification from N8N.",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_095",
+      "thread_id": "thread_088",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T07:15:00Z",
+      "from": {
+        "name": "Auto Alert - CCTV",
+        "email": "alerts@buildingmonitor.io",
+        "type": "system",
+        "property_id": "prop_001"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "subject": "[ALERT] CCTV camera offline - citynorth Quarter",
+      "body": "AUTOMATED ALERT\n\nProperty: citynorth Quarter\nSystem: CCTV Surveillance\nAlert Type: CAMERA OFFLINE\nTimestamp: 2026-03-06 07:12:18 GMT\n\nDetails:\n- Camera 4 (Car Park Level B1) has been offline for 6 hours\n- Camera 9 (Rear Entrance) has been offline for 6 hours\n- Both cameras lost connection simultaneously at 01:12 GMT\n- Possible cause: Network switch failure or power disruption in comms room\n\nImpact:\n- No CCTV coverage for car park B1 and rear building entrance\n- Recording gaps for the past 6 hours\n\nAction Required:\n- Check comms room for network switch/power issues\n- Contact CCTV maintenance provider if unable to resolve\n- Consider increased security presence until cameras are restored\n\nThis is an automated alert. Do not reply to this email.",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_096",
+      "thread_id": "thread_089",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T12:45:00Z",
+      "from": {
+        "name": "Ciara Molloy",
+        "email": "ciara.molloy@irishlife.ie",
+        "type": "landlord",
+        "company": "Irish Life REIT",
+        "property_id": "prop_003"
+      },
+      "to": "aisling.murphy@manageco.ie",
+      "subject": "Graylings - Management contract renewal discussion",
+      "body": "Maeve,\n\nOur management contract for Graylings comes up for renewal in June. Before we proceed, I'd like to schedule a review meeting to discuss:\n\n1. Performance against KPIs for 2025/26\n2. Tenant retention rates and satisfaction\n3. Maintenance response times and quality\n4. Proposed management fee for the new term\n5. Any proposed service improvements\n\nWe're also getting presentations from two other management companies as part of our procurement process, so this is an opportunity for your team to make the case for renewal.\n\nCould you prepare a comprehensive presentation covering the above for a meeting in the first week of April? The full Graylings investment committee will attend.\n\nCiara Molloy\nAsset Manager, Irish Life REIT",
+      "attachments": [],
+      "read": true
+    },
+    {
+      "id": "email_097",
+      "thread_id": "thread_090",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T08:10:00Z",
+      "from": {
+        "name": "Shane Reilly",
+        "email": "shane.reilly@outlook.com",
+        "type": "tenant",
+        "unit": "Apt 6A",
+        "property_id": "prop_002"
+      },
+      "to": "redsworks@manageco.ie",
+      "subject": "Moving out end of month - checklist request",
+      "body": "Hi Declan,\n\nI'll be moving out of Apt 6A at the end of March. Already gave formal notice last month.\n\nCan you send me:\n1. The move-out checklist — what condition you expect the apartment in\n2. Process for returning keys and fobs\n3. Deposit return timeline and what deductions to expect\n4. Whether I need to redirect post or if you handle it\n5. Procedure for booking the service lift for moving day\n6. Who to contact for final meter readings\n\nI'd like to do a pre-departure walkthrough a week before to identify anything I need to fix.\n\nPlanning to move on March 29th (Saturday). Is the service lift available that day?\n\nDarragh\nApt 6A",
+      "attachments": [],
+      "read": false
+    },
+    {
+      "id": "email_098",
+      "thread_id": "thread_091",
+      "thread_position": 1,
+      "timestamp": "2026-03-05T14:10:00Z",
+      "from": {
+        "name": "DFB Fire Safety",
+        "email": "fire.safety@dublinfire.ie",
+        "type": "legal",
+        "company": "Dublin Fire Brigade"
+      },
+      "to": "sarah.brennan@manageco.ie",
+      "subject": "Fire safety inspection report - citynorth Quarter",
+      "body": "Dear Ms. Brennan,\n\nPlease find attached the fire safety inspection report for citynorth Quarter following our inspection on February 27th, 2026.\n\nKey findings:\n\nCOMPLIANT:\n- Fire detection and alarm system\n- Emergency lighting (common areas)\n- Fire extinguisher locations and servicing\n- Evacuation signage\n- Fire safety register (mostly complete)\n\nNON-COMPLIANT (must be addressed within 28 days):\n1. Fire doors on Floors 3, 7, and 10 — door closers not functioning correctly\n2. Fire escape stairwell Floor 4 — items stored in stairwell (fire hazard)\n3. Bin store — no automatic fire suppression system (required for enclosed bin stores in multi-storey residential)\n4. Emergency lighting battery backup in car park — below minimum duration\n\nRECOMMENDATIONS:\n- Upgrade fire door inspection regime to quarterly\n- Install additional smoke detection in car park areas\n- Review fire evacuation procedure for mobility-impaired residents\n\nPlease provide a remediation plan by March 27th, 2026.\n\nDublin Fire Brigade, Fire Prevention Section",
+      "attachments": [
+        "fire_inspection_report_citynorth_feb2026.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_099",
+      "thread_id": "thread_092",
+      "thread_position": 1,
+      "timestamp": "2026-03-06T11:40:00Z",
+      "from": {
+        "name": "Rachel Doyle",
+        "email": "rachel.doyle@airbnb.com",
+        "type": "external",
+        "company": "Airbnb"
+      },
+      "to": "info@manageco.ie",
+      "subject": "Partnership inquiry - Short-term corporate stays",
+      "body": "Hello,\n\nI'm reaching out from Airbnb's Corporate Housing division. We're expanding our offerings in Dublin for business travellers and relocating professionals.\n\nWe're looking for property management partners who can offer:\n- Furnished apartments for 1-6 month stays\n- Professional management and cleaning services\n- Consistent quality across multiple units\n- Flexible lease structures\n\nWe'd manage all bookings and guest vetting through our platform. You'd benefit from:\n- Guaranteed occupancy during void periods\n- Premium nightly rates (typically 15-25% above monthly rent)\n- Our guest insurance programme\n- No marketing costs on your end\n\nWould any of your properties be suitable? We'd love to discuss a pilot programme.\n\nRachel Doyle\nCorporate Housing Partnerships, Airbnb\n+353 1 555 9900",
+      "attachments": [
+        "airbnb_corporate_housing_deck.pdf"
+      ],
+      "read": false
+    },
+    {
+      "id": "email_100",
+      "thread_id": "thread_070",
+      "thread_position": 2,
+      "timestamp": "2026-03-06T12:00:00Z",
+      "from": {
+        "name": "Bernadette Coffey",
+        "email": "bernadette.coffey@outlook.ie",
+        "type": "tenant",
+        "unit": "Apt 14A",
+        "property_id": "prop_001"
+      },
+      "to": "citynorth@manageco.ie",
+      "subject": "Re: Concern about construction next door",
+      "body": "Tara,\n\nJust following up on this. I've been talking to other residents and there's a lot of concern. People on floors 10-16 facing the site are particularly worried about light and privacy.\n\nI've drafted a letter that 23 residents have already signed asking management to:\n1. Make a formal submission to the planning process\n2. Organise a residents' meeting about the development\n3. Engage a planning consultant on our behalf\n4. Communicate regularly about the construction timeline and mitigation measures\n\nI'll drop the signed letter to the concierge today. I'd appreciate a response by end of next week.\n\nAlso — on a practical note — I noticed the developer has started doing site surveys already. There were people with measuring equipment on the boundary yesterday. Are they allowed on our side of the boundary? I didn't think so.\n\nNuala",
+      "attachments": [
+        "resident_letter_planning.pdf"
+      ],
+      "read": false
+    }
+  ]
+}

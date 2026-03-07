@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Python test cache
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Streamlit user settings
+.streamlit/
+
+# Data (exclude large or sensitive test data)
+data/proptech-test-data.json
