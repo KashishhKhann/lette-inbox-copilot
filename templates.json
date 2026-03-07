@@ -1,0 +1,27 @@
+{
+  "wifi": {
+    "patterns": ["wifi", "wi-fi", "internet password", "broadband"],
+    "subject_template": "WiFi details for {property_name}",
+    "body_template": "Hi {first_name},\n\nThe WiFi details for {property_name} are available in your resident welcome guide. If you cannot access it, reply and we will resend the details securely.\n\nBest,\n{manager_name}"
+  },
+  "bin_collection": {
+    "patterns": ["bin", "recycling", "waste collection"],
+    "subject_template": "Bin and recycling schedule for {property_name}",
+    "body_template": "Hi {first_name},\n\nBin and recycling collection times for {property_name} are listed in the resident handbook. Please place items in the designated area the evening before collection.\n\nBest,\n{manager_name}"
+  },
+  "direct_debit": {
+    "patterns": ["direct debit", "mandate", "standing order"],
+    "subject_template": "Direct debit setup instructions",    
+    "body_template": "Hi {first_name},\n\nTo set up direct debit, please complete the mandate form and return it to the management office. We can share the form again if needed.\n\nBest,\n{manager_name}"
+  },
+  "parking": {
+    "patterns": ["parking permit", "parking fob", "parking"],
+    "subject_template": "Parking access details",    
+    "body_template": "Hi {first_name},\n\nFor parking access at {property_name}, please confirm your unit details and vehicle registration. We will then issue or reactivate your permit/fob.\n\nBest,\n{manager_name}"
+  },
+  "move_in_checklist": {
+    "patterns": ["move in", "move-in", "key collection", "checklist"],
+    "subject_template": "Move-in checklist and key collection",    
+    "body_template": "Hi {first_name},\n\nWelcome to {property_name}. Your move-in checklist includes ID verification, inventory confirmation, and key collection at reception. Reply with your preferred arrival time if you need help scheduling.\n\nBest,\n{manager_name}"
+  }
+}
